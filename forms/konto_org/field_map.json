@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "form_title": "Wniosek o przyznanie/odebranie dostepu do konta organizacji w e-Urzedzie Skarbowym",
+    "total_pages": 1,
+    "pdf_width_pt": 595.32,
+    "pdf_height_pt": 841.92,
+    "coordinate_system": "PDF points, y=0 at TOP (pdfplumber style)",
+    "version": "v3"
+  },
+  "form_fields": [
+    {
+      "field_id": "naczelnik_us",
+      "label": "1. Naczelnik urzedu skarbowego",
+      "description": "Tax office head competent in registration and identification matters",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [33.1, 142.9, 562.6, 153.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "cel_przyznanie",
+      "label": "B.1 Przyznanie dostepu do konta organizacji",
+      "description": "Grant access to organization account",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [95.1, 191.1, 103.5, 205.1],
+      "num_cells": 0,
+      "cell_bboxes": []
+    },
+    {
+      "field_id": "cel_odebranie",
+      "label": "B.2 Odebranie dostepu do konta organizacji",
+      "description": "Revoke access to organization account",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [325.8, 191.1, 334.2, 205.1],
+      "num_cells": 0,
+      "cell_bboxes": []
+    },
+    {
+      "field_id": "nip",
+      "label": "2. Identyfikator podatkowy NIP",
+      "description": "Tax identification number (10 digits)",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [44.4, 252.0, 261.0, 268.0],
+      "num_cells": 10,
+      "cell_bboxes": [
+        [44.4, 252.0, 65.6, 268.0],
+        [65.6, 252.0, 86.9, 268.0],
+        [86.9, 252.0, 108.1, 268.0],
+        [108.1, 252.0, 129.3, 268.0],
+        [129.3, 252.0, 150.5, 268.0],
+        [150.5, 252.0, 171.8, 268.0],
+        [171.8, 252.0, 193.0, 268.0],
+        [193.0, 252.0, 214.3, 268.0],
+        [214.3, 252.0, 235.6, 268.0],
+        [235.6, 252.0, 261.0, 268.0]
+      ],
+      "font_size": 10
+    },
+    {
+      "field_id": "nazwa_pelna",
+      "label": "3. Nazwa pelna",
+      "description": "Full name of the organization",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [44.4, 284.8, 553.9, 299.4],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "ulica",
+      "label": "4. Ulica",
+      "description": "Street name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [44.4, 313.8, 322.8, 334.6],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "nr_domu",
+      "label": "5. Nr domu",
+      "description": "Building number",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [327.2, 313.8, 447.1, 326.0],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "nr_lokalu",
+      "label": "6. Nr lokalu",
+      "description": "Apartment number",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [451.4, 313.8, 553.9, 326.0],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "kod_pocztowy",
+      "label": "7. Kod pocztowy",
+      "description": "Postal code (XX-XXX format)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [44.4, 348.9, 151.5, 366.3],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "miejscowosc",
+      "label": "8. Miejscowosc",
+      "description": "City",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [155.8, 348.9, 362.2, 363.5],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "telefon_org",
+      "label": "9. Telefon",
+      "description": "Organization phone number",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [366.7, 348.9, 553.9, 363.5],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "dostep_podstawowy",
+      "label": "C.2 Podstawowy",
+      "description": "Basic access type",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [45.4, 398.2, 53.8, 412.3],
+      "num_cells": 0,
+      "cell_bboxes": []
+    },
+    {
+      "field_id": "dostep_rozszerzony",
+      "label": "C.2 Rozszerzony",
+      "description": "Extended access type",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [45.4, 415.3, 53.8, 429.3],
+      "num_cells": 0,
+      "cell_bboxes": []
+    },
+    {
+      "field_id": "pesel",
+      "label": "10. PESEL",
+      "description": "PESEL number of the user (11 digits)",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [44.4, 464.5, 282.0, 481.5],
+      "num_cells": 11,
+      "cell_bboxes": [
+        [44.4, 464.5, 65.6, 481.5],
+        [65.6, 464.5, 86.9, 481.5],
+        [86.9, 464.5, 108.1, 481.5],
+        [108.1, 464.5, 129.3, 481.5],
+        [129.3, 464.5, 150.5, 481.5],
+        [150.5, 464.5, 171.8, 481.5],
+        [171.8, 464.5, 193.0, 481.5],
+        [193.0, 464.5, 214.3, 481.5],
+        [214.3, 464.5, 235.6, 481.5],
+        [235.6, 464.5, 256.8, 481.5],
+        [256.8, 464.5, 282.0, 481.5]
+      ],
+      "font_size": 10
+    },
+    {
+      "field_id": "nazwisko",
+      "label": "11. Nazwisko",
+      "description": "User last name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [43.0, 498.8, 297.7, 518.6],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "imie",
+      "label": "12. Imie",
+      "description": "User first name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [297.8, 498.8, 556.6, 518.6],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_nazwisko",
+      "label": "E. Temsilci 1 Nazwisko",
+      "description": "Representative 1 last name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 568.5, 366.7, 589.8],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_imie",
+      "label": "E. Temsilci 1 Imie",
+      "description": "Representative 1 first name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [367.6, 568.5, 562.6, 589.8],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_stanowisko",
+      "label": "E. Temsilci 1 Stanowisko/Funkcja",
+      "description": "Representative 1 position/function",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 600.5, 366.7, 621.8],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_podpis",
+      "label": "E. Temsilci 1 Podpis",
+      "description": "Representative 1 signature",
+      "page": 1,
+      "field_type": "signature_box",
+      "bbox": [367.6, 600.5, 562.6, 621.8],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_nazwisko",
+      "label": "E. Temsilci 2 Nazwisko",
+      "description": "Representative 2 last name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 632.6, 366.7, 653.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_imie",
+      "label": "E. Temsilci 2 Imie",
+      "description": "Representative 2 first name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [367.6, 632.6, 562.6, 653.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_stanowisko",
+      "label": "E. Temsilci 2 Stanowisko/Funkcja",
+      "description": "Representative 2 position/function",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 664.7, 366.7, 685.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_podpis",
+      "label": "E. Temsilci 2 Podpis",
+      "description": "Representative 2 signature",
+      "page": 1,
+      "field_type": "signature_box",
+      "bbox": [367.6, 664.7, 562.6, 685.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_nazwisko",
+      "label": "E. Temsilci 3 Nazwisko",
+      "description": "Representative 3 last name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 696.7, 366.7, 717.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_imie",
+      "label": "E. Temsilci 3 Imie",
+      "description": "Representative 3 first name",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [367.6, 696.7, 562.6, 717.9],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_stanowisko",
+      "label": "E. Temsilci 3 Stanowisko/Funkcja",
+      "description": "Representative 3 position/function",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [69.5, 728.7, 366.7, 750.1],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_podpis",
+      "label": "E. Temsilci 3 Podpis",
+      "description": "Representative 3 signature",
+      "page": 1,
+      "field_type": "signature_box",
+      "bbox": [367.6, 728.7, 562.6, 750.1],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "font_size": 10
+    }
+  ]
+}

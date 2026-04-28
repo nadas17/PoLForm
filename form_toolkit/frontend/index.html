@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090b" />
+    <meta name="description" content="Polonya başvuru formlarını otomatik dolduran araç — Wniosek o pobyt czasowy / PESEL" />
+    <title>Form Doldurma Aracı — Polonya Başvuru Formları</title>
+  <style>
+  :root {
+    color-scheme: dark;
+  }
+
+  html, body {
+    margin: 0;
+    background: #09090b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Mobil tarayıcılarda taşmayı engelle, ama scroll'u kırmayalım */
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  /* Tüm odaklanabilir öğeler için tutarlı focus-visible halkası */
+  *:focus {
+    outline: none;
+  }
+  *:focus-visible {
+    outline: 2px solid rgb(16 185 129 / 0.65);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Reduced-motion tercihi */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  @keyframes slideUp {
+    from { transform: translateY(8px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Form scroll bar */
+  .form-scroll::-webkit-scrollbar,
+  .pdf-scroll::-webkit-scrollbar,
+  .h-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+  .form-scroll::-webkit-scrollbar-track,
+  .pdf-scroll::-webkit-scrollbar-track,
+  .h-scroll::-webkit-scrollbar-track { background: transparent; }
+  .form-scroll::-webkit-scrollbar-thumb,
+  .pdf-scroll::-webkit-scrollbar-thumb,
+  .h-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.08);
+    border-radius: 3px;
+  }
+  .form-scroll::-webkit-scrollbar-thumb:hover,
+  .pdf-scroll::-webkit-scrollbar-thumb:hover,
+  .h-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.18);
+  }
+
+  /* Firefox */
+  .form-scroll, .pdf-scroll, .h-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255,255,255,0.12) transparent;
+  }
+
+  .glass {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .glass-elevated {
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  /* Sadece klavye kullanıcıları için belirgin focus halkası */
+  .focus-ring:focus-visible {
+    box-shadow: 0 0 0 2px rgb(16 185 129 / 0.55);
+    outline: none;
+  }
+
+  /* Ekran okuyucular için gizli ama erişilebilir */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

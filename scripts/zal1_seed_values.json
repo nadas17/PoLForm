@@ -1,0 +1,32 @@
+{
+  "_comment": "Doldurulmuş zalacznik PDF'lerindeki alan değerleri. Script bu değerleri PDF'te bulup koordinatları çıkarır.",
+  "page1": {
+    "company_line1": { "type": "char_boxes", "value": "RUFFY",   "label": "Kuruluş Adı (1. satır)" },
+    "company_line2": { "type": "char_boxes", "value": "SPZO.O.", "label": "Kuruluş Adı (2. satır)" }
+  },
+  "page2": {
+    "krs":         { "type": "text",        "value": "Krajowy Rejestr Sądowy (KRS) - Nr KRS: 0001230547", "label": "KRS Numarası (etiketli satır)" },
+    "nip":         { "type": "char_boxes",  "value": "544326513",  "num_cells": 9, "label": "NIP (Vergi No)" },
+    "street":      { "type": "char_boxes",  "value": "ul.TORUŃSKA", "label": "Sokak (Ulica)" },
+    "house_no":    { "type": "char_boxes",  "value": "15/77",       "label": "Bina/Daire No (Nr domu/lokalu)" },
+    "postal_code": { "type": "char_boxes",  "value": "80-747",      "num_cells": 6, "label": "Posta Kodu (Kod pocztowy)" },
+    "city":        { "type": "char_boxes",  "value": "GDAŃSK",      "label": "Şehir (Miejscowość)" },
+    "country":     { "type": "char_boxes",  "value": "POLSKA",      "label": "Ülke (Kraj)" }
+  },
+  "page3_common": {
+    "position":     { "type": "text", "value": "Członek Zarządu",                                  "label": "Pozisyon (Stanowisko)" },
+    "place":        { "type": "text", "value": "GDAŃSK",                                            "label": "Çalışma Yeri (Miejsce wykonywania pracy)" },
+    "basis":        { "type": "text", "value": "UCHWAŁA",                                           "label": "Yasal Dayanak (Podstawa)" },
+    "working_time": { "type": "text", "value": "PEŁNY ETAT",                                        "label": "Çalışma Süresi (Wymiar)" },
+    "duties":       { "type": "text", "value": "ZARZĄDZANIE SPÓŁKĄ I REPREZENTOWANIE SPÓŁKI.",     "label": "Görev Tanımı (Zakres obowiązków)" },
+    "start_date":   { "type": "date_boxes", "value": "20260420", "num_cells": 8, "label": "Başlangıç Tarihi (YYYYMMDD)" },
+    "end_date":     { "type": "date_boxes", "value": "20290419", "num_cells": 8, "label": "Bitiş Tarihi (YYYYMMDD)" }
+  },
+  "page3_new_only": {
+    "salary_amount": { "type": "text", "value": "2500 PLN / DWA TYSIĄCE PIĘĆSET", "label": "Maaş (Wynagrodzenie)" }
+  },
+  "page3_old_only": {
+    "salary_amount": { "type": "text", "value": "2500 PLN",            "label": "Maaş — Rakam (Wynagrodzenie)" },
+    "salary_words":  { "type": "text", "value": "DWA TYSIĄCE PIĘĆSET", "label": "Maaş — Yazıyla (Słownie)" }
+  }
+}

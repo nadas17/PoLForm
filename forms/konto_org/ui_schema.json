@@ -1,0 +1,144 @@
+{
+  "tabs": [
+    {
+      "id": "purpose",
+      "label": "Amac & Vergi Dairesi",
+      "pages": "S.1 — Bolum A+B",
+      "groups": [
+        {
+          "title": "A. Yetkili Vergi Dairesi",
+          "subtitle": "Bolum A — Wniosek'in adreslendigi vergi dairesi baskani",
+          "fields": [
+            { "id": "naczelnik_us", "label": "Vergi Dairesi Baskani", "placeholder": "NACZELNIK URZEDU SKARBOWEGO WARSZAWA-SRODMIESCIE", "max": 80 }
+          ]
+        },
+        {
+          "title": "B. Basvuru Amaci",
+          "subtitle": "Bolum B — Erisim verme veya kaldirma",
+          "fields": [
+            { "id": "cel_przyznanie", "label": "B.1 Erisim Ver (Przyznanie dostepu)", "type": "checkbox" },
+            { "id": "cel_odebranie", "label": "B.2 Erisim Kaldir (Odebranie dostepu)", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organization",
+      "label": "Kurum Bilgileri",
+      "pages": "S.1 — Bolum C.1",
+      "groups": [
+        {
+          "title": "C.1 Kurum Kimlik ve Adres Bilgileri",
+          "subtitle": "Bolum C.1 — NIP, tam ad ve adres",
+          "fields": [
+            { "id": "nip", "label": "Vergi Kimlik No (NIP)", "placeholder": "1234567890", "max": 10 },
+            { "id": "nazwa_pelna", "label": "Tam Adi (Nazwa pelna)", "placeholder": "FIRMA SP. Z O.O.", "max": 80 },
+            { "id": "ulica", "label": "Sokak (Ulica)", "placeholder": "MARSZALKOWSKA", "max": 50 },
+            { "id": "nr_domu", "label": "Bina No (Nr domu)", "placeholder": "10", "max": 10 },
+            { "id": "nr_lokalu", "label": "Daire No (Nr lokalu)", "placeholder": "5", "max": 10 },
+            { "id": "kod_pocztowy", "label": "Posta Kodu (Kod pocztowy)", "placeholder": "00-000", "max": 6 },
+            { "id": "miejscowosc", "label": "Sehir (Miejscowosc)", "placeholder": "WARSZAWA", "max": 40 },
+            { "id": "telefon_org", "label": "Telefon", "placeholder": "+48221234567", "max": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "label": "Erisim Turu",
+      "pages": "S.1 — Bolum C.2",
+      "groups": [
+        {
+          "title": "C.2 Erisim Turu",
+          "subtitle": "Bolum C.2 — Yalnizca B.1 secildiginde doldur",
+          "fields": [
+            { "id": "dostep_podstawowy", "label": "Temel Erisim (Podstawowy)", "type": "checkbox" },
+            { "id": "dostep_rozszerzony", "label": "Genisletilmis Erisim (Rozszerzony)", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user",
+      "label": "Kullanici Bilgileri",
+      "pages": "S.1 — Bolum D",
+      "groups": [
+        {
+          "title": "D. Erisim Verilecek/Alinacak Kullanici",
+          "subtitle": "Bolum D — PESEL, soyadi ve adi",
+          "fields": [
+            { "id": "pesel", "label": "PESEL", "placeholder": "12345678901", "max": 11 },
+            { "id": "nazwisko", "label": "Soyadi (Nazwisko)", "placeholder": "YILMAZ", "max": 40 },
+            { "id": "imie", "label": "Adi (Imie)", "placeholder": "MEHMET", "max": 30 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "representatives",
+      "label": "Temsilciler",
+      "pages": "S.1 — Bolum E",
+      "groups": [
+        {
+          "title": "E. Yetkili Temsilciler (3 satir)",
+          "subtitle": "Bolum E — Imzaya yetkili kisiler",
+          "fields": [
+            { "id": "e_rep1_nazwisko", "label": "Temsilci 1 — Soyadi", "placeholder": "KOWALSKI", "max": 40 },
+            { "id": "e_rep1_imie", "label": "Temsilci 1 — Adi", "placeholder": "JAN", "max": 30 },
+            { "id": "e_rep1_stanowisko", "label": "Temsilci 1 — Gorevi", "placeholder": "PREZES ZARZADU", "max": 40 },
+            { "id": "e_rep1_podpis", "label": "Temsilci 1 — Imza", "placeholder": "", "max": 40 },
+            { "id": "e_rep2_nazwisko", "label": "Temsilci 2 — Soyadi", "placeholder": "", "max": 40 },
+            { "id": "e_rep2_imie", "label": "Temsilci 2 — Adi", "placeholder": "", "max": 30 },
+            { "id": "e_rep2_stanowisko", "label": "Temsilci 2 — Gorevi", "placeholder": "", "max": 40 },
+            { "id": "e_rep2_podpis", "label": "Temsilci 2 — Imza", "placeholder": "", "max": 40 },
+            { "id": "e_rep3_nazwisko", "label": "Temsilci 3 — Soyadi", "placeholder": "", "max": 40 },
+            { "id": "e_rep3_imie", "label": "Temsilci 3 — Adi", "placeholder": "", "max": 30 },
+            { "id": "e_rep3_stanowisko", "label": "Temsilci 3 — Gorevi", "placeholder": "", "max": 40 },
+            { "id": "e_rep3_podpis", "label": "Temsilci 3 — Imza", "placeholder": "", "max": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docimport",
+      "label": "Belge Aktar",
+      "pages": "",
+      "groups": []
+    },
+    {
+      "id": "export",
+      "label": "Disa Aktar",
+      "pages": "",
+      "groups": []
+    }
+  ],
+  "checkbox_groups": [
+    {
+      "id": "purpose",
+      "label": "Basvuru Amaci",
+      "fields": ["cel_przyznanie", "cel_odebranie"],
+      "exclusive": true
+    },
+    {
+      "id": "access_type",
+      "label": "Erisim Turu",
+      "fields": ["dostep_podstawowy", "dostep_rozszerzony"],
+      "exclusive": true
+    }
+  ],
+  "translations": {
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA",
+      "ALMANYA": "NIEMCY",
+      "FRANSA": "FRANCJA",
+      "POLONYA": "POLSKA",
+      "POLSKA": "POLSKA"
+    }
+  },
+  "total_fields": 28,
+  "download_name": "KontoOrg_{nazwisko}_{date}.pdf",
+  "name_fields": {
+    "surname": "nazwisko",
+    "name": "imie"
+  }
+}

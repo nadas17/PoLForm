@@ -1,0 +1,64 @@
+# ───────── Bağımlılıklar ─────────
+node_modules/
+.venv/
+venv/
+env/
+
+# ───────── Python ─────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# ───────── Frontend build çıktıları ─────────
+form_toolkit/static/
+pesel_toolkit/static/
+.vite/
+
+# ───────── Sırlar (asla commit etme) ─────────
+.env
+.env.local
+.env.*.local
+*.key
+
+# ───────── IDE / OS ─────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ───────── Claude / harness ─────────
+.claude/
+
+# ───────── Log ─────────
+*.log
+logs/
+
+# ───────── KVKK: kişisel veri içeren PDF'ler ─────────
+# (Test/development sırasında kullanıldı — GitHub'a yüklenemez)
+zalacznik-nr-1-Didem*.pdf
+zalacznik-nr-1-filled*.pdf
+zalacznik-nr-1-Ruffy*.pdf
+form_toolkit/zalacznik-nr-1-Didem*.pdf
+form_toolkit/zalacznik-nr-1-Ruffy*.pdf
+
+# ───────── Test artefaktları (script çıktıları) ─────────
+mock_*.pdf
+test_*.pdf
+output*.pdf
+/tmp/
+
+# ───────── Geçici / yedek ─────────
+*.bak
+*.tmp
+*~

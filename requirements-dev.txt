@@ -1,0 +1,3 @@
+# Dev-only bağımlılıklar — koordinat çıkarma script'leri için.
+# Production'a (requirements.txt) sızmaz.
+pdfplumber>=0.11.0

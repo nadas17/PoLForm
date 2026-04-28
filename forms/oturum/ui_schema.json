@@ -1,0 +1,319 @@
+{
+  "tabs": [
+    {
+      "id": "personal",
+      "label": "Kişisel Bilgiler",
+      "pages": "S.1-2",
+      "groups": [
+        {
+          "title": "Başvuru Tarihi",
+          "subtitle": "Sayfa 1 — Üst kısım",
+          "fields": [
+            { "id": "do_authority", "label": "Do / To — Voyvodalık Adı", "placeholder": "MAZOVYA VOYVODALIGI", "max": 60 },
+            { "id": "date_year", "label": "Başvuru Yılı", "placeholder": "2026", "max": 4, "group": "date" },
+            { "id": "date_month", "label": "Başvuru Ayı", "placeholder": "03", "max": 2, "group": "date" },
+            { "id": "date_day", "label": "Başvuru Günü", "placeholder": "15", "max": 2, "group": "date" }
+          ]
+        },
+        {
+          "title": "I. Kimlik Bilgileri",
+          "subtitle": "Sayfa 1-2 — Soru 1-20",
+          "fields": [
+            { "id": "field_01_surname", "label": "1. Soyadı (Nazwisko)", "placeholder": "YILMAZ", "max": 20 },
+            { "id": "field_02_prev_surname_r1", "label": "2. Önceki Soyadı — satır 1", "placeholder": "", "max": 20 },
+            { "id": "field_02_prev_surname_r2", "label": "2. Önceki Soyadı — satır 2", "placeholder": "", "max": 20 },
+            { "id": "field_03_family_name", "label": "3. Aile Soyadı (Rodowe)", "placeholder": "YILMAZ", "max": 20 },
+            { "id": "field_04_name_r1", "label": "4. Adı — satır 1", "placeholder": "MEHMET", "max": 20 },
+            { "id": "field_04_name_r2", "label": "4. Adı — satır 2", "placeholder": "", "max": 20 },
+            { "id": "field_05_prev_name_r1", "label": "5. Önceki Adı — satır 1", "placeholder": "", "max": 20 },
+            { "id": "field_05_prev_name_r2", "label": "5. Önceki Adı — satır 2", "placeholder": "", "max": 20 },
+            { "id": "field_06_fathers_name", "label": "6. Baba Adı (Imię ojca)", "placeholder": "AHMET", "max": 20 },
+            { "id": "field_07_mothers_name", "label": "7. Anne Adı (Imię matki)", "placeholder": "FATMA", "max": 20 },
+            { "id": "field_08_mothers_maiden", "label": "8. Anne Kızlık Soyadı", "placeholder": "KAYA", "max": 20 },
+            { "id": "field_09_dob", "label": "9. Doğum Tarihi (YYYY/AA/GG)", "placeholder": "1990/05/15", "max": 10 },
+            { "id": "field_10_sex", "label": "10. Cinsiyet (M / K)", "placeholder": "M", "max": 1 },
+            { "id": "field_11_birthplace", "label": "11. Doğum Yeri (Miejsce urodzenia)", "placeholder": "ISTANBUL", "max": 20 },
+            { "id": "field_12_birth_country", "label": "12. Doğum Ülkesi", "placeholder": "TURKEY", "max": 20 },
+            { "id": "field_13_nationality", "label": "13. Milliyet (Narodowość)", "placeholder": "TURKISH", "max": 20 },
+            { "id": "field_14_citizenship", "label": "14. Vatandaşlık (Obywatelstwo)", "placeholder": "TURKISH", "max": 20 },
+            { "id": "field_15_marital", "label": "15. Medeni Durum (Stan cywilny)", "placeholder": "SINGLE", "max": 20 },
+            { "id": "field_16_education", "label": "16. Eğitim (Wykształcenie)", "placeholder": "UNIVERSITY", "max": 20 },
+            { "id": "field_17_height", "label": "17. Boy — cm (Wzrost)", "placeholder": "175", "max": 3 },
+            { "id": "field_17_eye_color", "label": "17. Göz Rengi (Kolor oczu)", "placeholder": "BROWN", "max": 20 },
+            { "id": "field_17_special_marks", "label": "17. Özel İşaretler (Znaki)", "placeholder": "NONE", "max": 20 },
+            { "id": "field_18_pesel", "label": "18. PESEL Numarası", "placeholder": "", "max": 20 },
+            { "id": "field_19_phone", "label": "19. Telefon Numarası", "placeholder": "+48501234567", "max": 20 },
+            { "id": "field_20_email", "label": "20. E-posta Adresi", "placeholder": "EMAIL@EXAMPLE.COM", "max": 50, "shrink": true },
+            { "id": "p2_checkbox", "label": "Aile üyesi Polonya dışında ikamet ediyorsa işaretleyin", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "address",
+      "label": "Adres & Amaç",
+      "pages": "S.3-4",
+      "groups": [
+        {
+          "title": "Polonya'daki Adres",
+          "subtitle": "Sayfa 3 — Bölüm B",
+          "fields": [
+            { "id": "addr_1_voivodeship", "label": "1. İl (Województwo)", "placeholder": "MAZOWIECKIE", "max": 20 },
+            { "id": "addr_2_city", "label": "2. Şehir (Miejscowość)", "placeholder": "WARSZAWA", "max": 20 },
+            { "id": "addr_3_street", "label": "3. Sokak (Ulica)", "placeholder": "MARSZALKOWSKA", "max": 20 },
+            { "id": "addr_4_house_no", "label": "4. Bina No (Numer domu)", "placeholder": "10", "max": 7 },
+            { "id": "addr_5_flat_no", "label": "5. Daire No (Mieszkanie)", "placeholder": "5", "max": 7 },
+            { "id": "addr_6_postal_code", "label": "6. Posta Kodu (Kod pocztowy)", "placeholder": "00-001", "max": 6 }
+          ]
+        },
+        {
+          "title": "Kalış Amacı (Cel pobytu)",
+          "subtitle": "Sayfa 3 — Uygun olanları işaretleyin",
+          "fields": [
+            { "id": "purpose_checkbox_1", "label": "Nitelikli çalışma (praca wymagająca wysokich kwalifikacji)", "type": "checkbox" },
+            { "id": "purpose_checkbox_2", "label": "Mevsimlik çalışma (praca sezonowa)", "type": "checkbox" },
+            { "id": "purpose_checkbox_3", "label": "Şirket içi transfer (przeniesienie wewnątrz przedsiębiorstwa)", "type": "checkbox" },
+            { "id": "purpose_checkbox_4", "label": "Diğer çalışma (wykonywanie pracy innej)", "type": "checkbox" },
+            { "id": "purpose_checkbox_5", "label": "Ticari faaliyet (prowadzenie działalności gospodarczej)", "type": "checkbox" },
+            { "id": "purpose_checkbox_6", "label": "Yönetim kurulu üyeliği (pełnienie funkcji w zarządzie)", "type": "checkbox" },
+            { "id": "purpose_checkbox_7", "label": "Bilimsel araştırma (prowadzenie badań naukowych)", "type": "checkbox" },
+            { "id": "purpose_checkbox_8", "label": "Yüksek öğrenim (odbywanie studiów)", "type": "checkbox" },
+            { "id": "purpose_checkbox_9", "label": "Dil kursu (szkolenie językowe)", "type": "checkbox" },
+            { "id": "purpose_checkbox_10", "label": "Mesleki eğitim (szkolenie zawodowe)", "type": "checkbox" },
+            { "id": "purpose_checkbox_11", "label": "Au pair", "type": "checkbox" },
+            { "id": "purpose_checkbox_12", "label": "Gönüllü çalışma (wolontariat)", "type": "checkbox" },
+            { "id": "purpose_checkbox_13", "label": "Aile birleşimi (połączenie z rodziną)", "type": "checkbox" },
+            { "id": "purpose_checkbox_14", "label": "Uzun süreli oturum (pobyt rezydenta długoterminowego)", "type": "checkbox" },
+            { "id": "purpose_checkbox_15", "label": "AB içi mobilite (mobilność wewnątrzunijna)", "type": "checkbox" }
+          ]
+        },
+        {
+          "title": "Polonya'da Bulunma Durumu",
+          "subtitle": "Sayfa 4 — Bölüm III",
+          "fields": [
+            { "id": "p4_staying_yes", "label": "Evet — Polonya'da bulunuyorum (Tak)", "type": "checkbox" },
+            { "id": "p4_staying_no", "label": "Hayır — Polonya'da bulunmuyorum (Nie)", "type": "checkbox" },
+            { "id": "p4_date", "label": "Son giriş / İkamet başlangıç tarihi (YYYY/AA/GG)", "placeholder": "2025/12/01", "max": 10 }
+          ]
+        },
+        {
+          "title": "III.a Polonya'daki Önceki Kalışlar",
+          "subtitle": "Sayfa 4",
+          "row_count": 6,
+          "field_pattern": "p3a_r{row}_{col}",
+          "columns": ["period", "basis"],
+          "column_labels": ["Dönem (YYYY/MM-YYYY/MM)", "Hukuki Dayanak"],
+          "column_placeholders": ["2024/01-2024/06", "WIZA / ZEZWOLENIE"],
+          "fields": [
+            { "id": "p3a_r1_period", "label": "III.a Satır 1 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r1_basis", "label": "III.a Satır 1 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" },
+            { "id": "p3a_r2_period", "label": "III.a Satır 2 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r2_basis", "label": "III.a Satır 2 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" },
+            { "id": "p3a_r3_period", "label": "III.a Satır 3 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r3_basis", "label": "III.a Satır 3 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" },
+            { "id": "p3a_r4_period", "label": "III.a Satır 4 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r4_basis", "label": "III.a Satır 4 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" },
+            { "id": "p3a_r5_period", "label": "III.a Satır 5 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r5_basis", "label": "III.a Satır 5 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" },
+            { "id": "p3a_r6_period", "label": "III.a Satır 6 — Dönem", "placeholder": "2024/01-2024/06" },
+            { "id": "p3a_r6_basis", "label": "III.a Satır 6 — Dayanak", "placeholder": "WIZA / ZEZWOLENIE" }
+          ]
+        },
+        {
+          "title": "Polonya Dışı Kalışlar (Son 12 Ay)",
+          "subtitle": "Sayfa 5",
+          "row_count": 4,
+          "field_pattern": "p5b_r{row}_{col}",
+          "columns": ["period", "basis"],
+          "column_labels": ["Dönem (YYYY/MM-YYYY/MM)", "Ülke / Dayanak"],
+          "column_placeholders": ["PAŹDZIERNIK 2024 – LUTY 2025", "TURCJA / NIEMCY"],
+          "fields": [
+            { "id": "p5b_r1_period", "label": "Dışı Satır 1 — Dönem", "placeholder": "PAŹDZIERNIK 2024 – LUTY 2025" },
+            { "id": "p5b_r1_basis", "label": "Dışı Satır 1 — Ülke/Dayanak", "placeholder": "TURCJA / NIEMCY" },
+            { "id": "p5b_r2_period", "label": "Dışı Satır 2 — Dönem", "placeholder": "PAŹDZIERNIK 2024 – LUTY 2025" },
+            { "id": "p5b_r2_basis", "label": "Dışı Satır 2 — Ülke/Dayanak", "placeholder": "TURCJA / NIEMCY" },
+            { "id": "p5b_r3_period", "label": "Dışı Satır 3 — Dönem", "placeholder": "PAŹDZIERNIK 2024 – LUTY 2025" },
+            { "id": "p5b_r3_basis", "label": "Dışı Satır 3 — Ülke/Dayanak", "placeholder": "TURCJA / NIEMCY" },
+            { "id": "p5b_r4_period", "label": "Dışı Satır 4 — Dönem", "placeholder": "PAŹDZIERNIK 2024 – LUTY 2025" },
+            { "id": "p5b_r4_basis", "label": "Dışı Satır 4 — Ülke/Dayanak", "placeholder": "TURCJA / NIEMCY" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Aile Üyeleri",
+      "pages": "S.4",
+      "groups": [
+        {
+          "title": "II. Aile Üyeleri",
+          "subtitle": "Sayfa 4 — 6 satıra kadar"
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "label": "Hukuki & İmza",
+      "pages": "S.5-8",
+      "groups": [
+        {
+          "title": "V. Yasal Dayanak (Podstawa pobytu)",
+          "subtitle": "Sayfa 5",
+          "fields": [
+            { "id": "p5_basis_1", "label": "Vizesiz giriş (ruch bezwizowy)", "type": "checkbox" },
+            { "id": "p5_basis_2", "label": "Vize (wiza)", "type": "checkbox" },
+            { "id": "p5_basis_3", "label": "Oturum izni (zezwolenie na pobyt)", "type": "checkbox" },
+            { "id": "p5_basis_4", "label": "Diğer belge (inny dokument)", "type": "checkbox" }
+          ]
+        },
+        {
+          "title": "V. Mali Kaynaklar (Środki finansowe)",
+          "subtitle": "Sayfa 5 — Geçim masraflarını karşılama bilgisi",
+          "row_count": 4,
+          "field_pattern": "p5_finance_r{row}",
+          "fields": [
+            { "id": "p5_finance_r1", "label": "Mali Kaynak — Satır 1", "placeholder": "Ör: UMOWA O PRACĘ, WYNAGRODZENIE 5000 PLN MIESIĘCZNIE" },
+            { "id": "p5_finance_r2", "label": "Mali Kaynak — Satır 2", "placeholder": "" },
+            { "id": "p5_finance_r3", "label": "Mali Kaynak — Satır 3", "placeholder": "" },
+            { "id": "p5_finance_r4", "label": "Mali Kaynak — Satır 4", "placeholder": "" }
+          ]
+        },
+        {
+          "title": "VI. Sağlık Sigortası (Ubezpieczenie zdrowotne)",
+          "subtitle": "Sayfa 5 — Sağlık sigortası bilgisi",
+          "row_count": 4,
+          "field_pattern": "p5_insurance_r{row}",
+          "fields": [
+            { "id": "p5_insurance_r1", "label": "Sigorta — Satır 1", "placeholder": "Ör: ZUS / NFZ, NR POLISY: 123456789" },
+            { "id": "p5_insurance_r2", "label": "Sigorta — Satır 2", "placeholder": "" },
+            { "id": "p5_insurance_r3", "label": "Sigorta — Satır 3", "placeholder": "" },
+            { "id": "p5_insurance_r4", "label": "Sigorta — Satır 4", "placeholder": "" }
+          ]
+        },
+        {
+          "title": "VIII-X. Beyanlar (Oświadczenia)",
+          "subtitle": "Sayfa 5-6",
+          "fields": [
+            { "id": "p5_conviction_checkbox", "label": "Mahkûmiyet var — Evet (skazanie)", "type": "checkbox" },
+            { "id": "p6_checkbox_1", "label": "VIII — Hayır, mahkûmiyet yok (nie)", "type": "checkbox" },
+            { "id": "p6_checkbox_2", "label": "IX — Evet, ceza kovuşturması var (tak)", "type": "checkbox" },
+            { "id": "p6_checkbox_3", "label": "IX — Hayır, kovuşturma yok (nie)", "type": "checkbox" },
+            { "id": "p6_checkbox_4", "label": "X — Evet, mali yükümlülük var (tak)", "type": "checkbox" },
+            { "id": "p6_checkbox_5", "label": "X — Hayır, yükümlülük yok (nie)", "type": "checkbox" }
+          ]
+        },
+        {
+          "title": "D. İmza ve Tarih",
+          "subtitle": "Sayfa 6-8 — Başvuranın imzası",
+          "fields": [
+            { "id": "signature_specimen", "label": "İmza Örneği (Wzór podpisu)", "placeholder": "İmza", "max": 40 },
+            { "id": "p8_date", "label": "İmza Tarihi (YYYY/AA/GG)", "placeholder": "2026/03/15", "max": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docimport",
+      "label": "Belge Aktar",
+      "pages": "",
+      "groups": []
+    },
+    {
+      "id": "export",
+      "label": "Dışa Aktar",
+      "pages": "",
+      "groups": []
+    }
+  ],
+  "family_table": {
+    "columns": ["name", "sex", "dob", "kinship", "citizenship", "residence", "temp_permit", "dependent"],
+    "column_labels": ["Ad Soyad", "Cinsiyet", "Doğum Tar.", "Akrabalık", "Vatandaşlık", "İkamet Yeri", "Geçici İzin", "Bağımlı"],
+    "column_placeholders": ["NOWAK ANNA", "K", "1985/03/20", "SPOUSE", "POLISH", "WARSZAWA", "TAK", "TAK"],
+    "rows": 6,
+    "field_pattern": "family_{row}_{col}"
+  },
+  "translations": {
+    "TR_PL_MONTHS": {
+      "OCAK": "STYCZEŃ",
+      "SUBAT": "LUTY",
+      "ŞUBAT": "LUTY",
+      "MART": "MARZEC",
+      "NISAN": "KWIECIEŃ",
+      "NİSAN": "KWIECIEŃ",
+      "MAYIS": "MAJ",
+      "HAZIRAN": "CZERWIEC",
+      "HAZİRAN": "CZERWIEC",
+      "TEMMUZ": "LIPIEC",
+      "AGUSTOS": "SIERPIEŃ",
+      "AĞUSTOS": "SIERPIEŃ",
+      "EYLUL": "WRZESIEŃ",
+      "EYLÜL": "WRZESIEŃ",
+      "EKIM": "PAŹDZIERNIK",
+      "KASIM": "LISTOPAD",
+      "ARALIK": "GRUDZIEŃ"
+    },
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA",
+      "TÜRKİYE": "TURCJA",
+      "TURCJA": "TURCJA",
+      "ALMANYA": "NIEMCY",
+      "FRANSA": "FRANCJA",
+      "INGILTERE": "WIELKA BRYTANIA",
+      "İNGİLTERE": "WIELKA BRYTANIA",
+      "ITALYA": "WŁOCHY",
+      "İTALYA": "WŁOCHY",
+      "ISPANYA": "HISZPANIA",
+      "İSPANYA": "HISZPANIA",
+      "HOLLANDA": "HOLANDIA",
+      "BELCIKA": "BELGIA",
+      "BELÇİKA": "BELGIA",
+      "AVUSTURYA": "AUSTRIA",
+      "ISVICRE": "SZWAJCARIA",
+      "İSVİÇRE": "SZWAJCARIA",
+      "YUNANISTAN": "GRECJA",
+      "BULGARISTAN": "BUŁGARIA",
+      "ROMANYA": "RUMUNIA",
+      "UKRAYNA": "UKRAINA",
+      "RUSYA": "ROSJA",
+      "IRAN": "IRAN",
+      "İRAN": "IRAN",
+      "IRAK": "IRAK",
+      "SURIYE": "SYRIA",
+      "SURİYE": "SYRIA",
+      "MISIR": "EGIPT",
+      "ABD": "USA",
+      "AMERIKA": "USA",
+      "KANADA": "KANADA",
+      "CIN": "CHINY",
+      "ÇİN": "CHINY",
+      "JAPONYA": "JAPONIA",
+      "PAKISTAN": "PAKISTAN",
+      "PAKİSTAN": "PAKISTAN",
+      "BANGLADES": "BANGLADESZ",
+      "BANGLADEŞ": "BANGLADESZ",
+      "HINDISTAN": "INDIE",
+      "HİNDİSTAN": "INDIE",
+      "GURCISTAN": "GRUZJA",
+      "GÜRCÜSTAN": "GRUZJA",
+      "AZERBAYCAN": "AZERBEJDŻAN",
+      "OZBEKISTAN": "UZBEKISTAN",
+      "ÖZBEKİSTAN": "UZBEKISTAN",
+      "TURKMENISTAN": "TURKMENISTAN",
+      "TÜRKMENİSTAN": "TURKMENISTAN",
+      "KAZAKISTAN": "KAZACHSTAN",
+      "KIRGIZISTAN": "KIRGISTAN",
+      "TACIKISTAN": "TADŻYKISTAN",
+      "TAYİKİSTAN": "TADŻYKISTAN",
+      "NEPAL": "NEPAL",
+      "SRI LANKA": "SRI LANKA",
+      "POLONYA": "POLSKA",
+      "POLSKA": "POLSKA"
+    }
+  },
+  "total_fields": 113,
+  "download_name": "{surname}_{name}_{date}.pdf",
+  "name_fields": {
+    "surname": "field_01_surname",
+    "name": "field_04_name_r1"
+  }
+}

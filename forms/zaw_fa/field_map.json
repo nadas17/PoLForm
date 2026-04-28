@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "form_title": "ZAW-FA Zawiadomienie o nadaniu lub odebraniu uprawnien KSeF",
+    "total_pages": 2,
+    "pdf_width_pt": 595.28,
+    "pdf_height_pt": 841.89,
+    "coordinate_system": "PDF points, y=0 at TOP (pdfplumber style)",
+    "version": "v4"
+  },
+  "form_fields": [
+    {
+      "field_id": "nip",
+      "label": "1. NIP",
+      "description": "NIP (Tax ID)",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        66.52,
+        33.68,
+        223.97,
+        43.78
+      ],
+      "num_cells": 10,
+      "cell_bboxes": [
+        [
+          66.52,
+          33.68,
+          82.27,
+          43.78
+        ],
+        [
+          82.27,
+          33.68,
+          98.01,
+          43.78
+        ],
+        [
+          98.01,
+          33.68,
+          113.75,
+          43.78
+        ],
+        [
+          113.75,
+          33.68,
+          129.5,
+          43.78
+        ],
+        [
+          129.5,
+          33.68,
+          145.25,
+          43.78
+        ],
+        [
+          145.25,
+          33.68,
+          160.99,
+          43.78
+        ],
+        [
+          160.99,
+          33.68,
+          176.73,
+          43.78
+        ],
+        [
+          176.73,
+          33.68,
+          192.48,
+          43.78
+        ],
+        [
+          192.48,
+          33.68,
+          208.22,
+          43.78
+        ],
+        [
+          208.22,
+          33.68,
+          223.97,
+          43.78
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "naczelnik_us",
+      "label": "5. Entry",
+      "description": "Section A - Main entry field",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        50.52,
+        210.47,
+        553.18,
+        225.63
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "cel_nadanie",
+      "label": "6.1",
+      "description": "Field 6.1 - Option 1",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        61.46,
+        237.41,
+        69.88,
+        245.83
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "cel_odebranie",
+      "label": "6.2",
+      "description": "Field 6.2 - Option 2",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        162.5,
+        235.73,
+        170.92,
+        244.15
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "cel_odebranie_wszystkich",
+      "label": "6.3",
+      "description": "Field 6.3 - Option 3",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        287.12,
+        235.73,
+        295.54,
+        244.15
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "cel_dane_sha256",
+      "label": "6.4",
+      "description": "Field 6.4 - Option 4",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        61.46,
+        250.88,
+        69.88,
+        259.3
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "rodzaj_podmiot",
+      "label": "7.1",
+      "description": "Field 7.1 - Rodzaj podmiotu (Entity type) - Option 1",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        129.4,
+        323.0,
+        137.4,
+        331.1
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "rodzaj_organ",
+      "label": "7.2",
+      "description": "Field 7.2 - Rodzaj podmiotu (Entity type) - Option 2",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        274.0,
+        323.0,
+        282.0,
+        331.1
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "rodzaj_osoba_fiz",
+      "label": "7.3",
+      "description": "Field 7.3 - Rodzaj podmiotu (Entity type) - Option 3",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        413.7,
+        323.0,
+        421.7,
+        331.1
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "nazwa_pelna",
+      "label": "8. Nazwa pełna",
+      "description": "Nazwa pełna (Full name)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        51.36,
+        345.17,
+        565.81,
+        356.96
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_telefon",
+      "label": "9. Telefon",
+      "description": "Telefon (Phone)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        95.99,
+        386.43,
+        550.66,
+        402.42
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_email",
+      "label": "10. E-mail",
+      "description": "E-mail",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        97.67,
+        409.16,
+        472.35,
+        424.31
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "id_nip",
+      "label": "11.1 NIP",
+      "description": "Field 11.1 - Rodzaj identyfikatora (ID type) - NIP",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        127.14,
+        483.24,
+        136.4,
+        491.66
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "id_pesel",
+      "label": "11.2 PESEL",
+      "description": "Field 11.2 - Rodzaj identyfikatora (ID type) - PESEL",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        255.12,
+        483.24,
+        262.7,
+        491.66
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "id_brak",
+      "label": "11.3 Brak",
+      "description": "Field 11.3 - Rodzaj identyfikatora (ID type) - None",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        391.52,
+        484.09,
+        399.94,
+        492.51
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "id_numer",
+      "label": "12. NIP/PESEL",
+      "description": "NIP/PESEL - Digit boxes",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        219.1,
+        506.0,
+        392.0,
+        520.0
+      ],
+      "num_cells": 11,
+      "cell_bboxes": [
+        [
+          219.1,
+          506.0,
+          234.8,
+          520.0
+        ],
+        [
+          234.8,
+          506.0,
+          250.5,
+          520.0
+        ],
+        [
+          250.5,
+          506.0,
+          266.2,
+          520.0
+        ],
+        [
+          266.2,
+          506.0,
+          281.9,
+          520.0
+        ],
+        [
+          281.9,
+          506.0,
+          297.6,
+          520.0
+        ],
+        [
+          297.6,
+          506.0,
+          313.4,
+          520.0
+        ],
+        [
+          313.4,
+          506.0,
+          329.1,
+          520.0
+        ],
+        [
+          329.1,
+          506.0,
+          344.9,
+          520.0
+        ],
+        [
+          344.9,
+          506.0,
+          360.6,
+          520.0
+        ],
+        [
+          360.6,
+          506.0,
+          376.3,
+          520.0
+        ],
+        [
+          376.3,
+          506.0,
+          392.0,
+          520.0
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_nazwisko",
+      "label": "13. Nazwisko",
+      "description": "Nazwisko (Surname)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        51.36,
+        528.71,
+        228.18,
+        541.34
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_imie",
+      "label": "14. Pierwsze imie",
+      "description": "Pierwsze imie (First name)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        238.28,
+        527.87,
+        373.0,
+        543.86
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_data_urodzenia",
+      "label": "15. Data urodzenia",
+      "description": "Data urodzenia (Date of birth) — DD-MM-RRRR",
+      "page": 1,
+      "field_type": "date_boxes",
+      "bbox": [
+        411.0,
+        529.0,
+        546.0,
+        542.0
+      ],
+      "num_cells": 8,
+      "cell_bboxes": [
+        [
+          411.0,
+          529.0,
+          427.0,
+          542.0
+        ],
+        [
+          427.0,
+          529.0,
+          444.9,
+          542.0
+        ],
+        [
+          444.9,
+          529.0,
+          462.8,
+          542.0
+        ],
+        [
+          462.8,
+          529.0,
+          480.7,
+          542.0
+        ],
+        [
+          480.7,
+          529.0,
+          498.7,
+          542.0
+        ],
+        [
+          498.7,
+          529.0,
+          514.4,
+          542.0
+        ],
+        [
+          514.4,
+          529.0,
+          530.2,
+          542.0
+        ],
+        [
+          530.2,
+          529.0,
+          546.0,
+          542.0
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_rodzaj_dokumentu",
+      "label": "16. Rodzaj dokumentu",
+      "description": "Rodzaj dokumentu (Document type)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        59.78,
+        551.44,
+        293.85,
+        564.91
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_nr_dokumentu",
+      "label": "17. Numer i seria",
+      "description": "Numer i seria (Number and series)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        327.0,
+        555.0,
+        555.0,
+        566.0
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c1_kraj_dokumentu",
+      "label": "18. Kraj wydania dokumentu",
+      "description": "Kraj wydania dokumentu (Country of issue)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        59.0,
+        575.0,
+        555.0,
+        589.0
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c2_telefon",
+      "label": "19. Telefon",
+      "description": "Telefon (Phone) - Section C.2",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        116.19,
+        616.26,
+        497.61,
+        633.94
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c2_email",
+      "label": "20. E-mail",
+      "description": "E-mail - Section C.2",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        95.99,
+        640.68,
+        531.29,
+        654.99
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_nazwisko",
+      "label": "22. Nazwisko",
+      "description": "Block 1 - Nazwisko (Surname)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        88.41,
+        60.62,
+        303.11,
+        74.09
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_imie",
+      "label": "23. Pierwsze imie",
+      "description": "Block 1 - Pierwsze imie (First name)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        327.53,
+        60.62,
+        548.13,
+        74.09
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep1_stanowisko",
+      "label": "24. Stanowisko",
+      "description": "Block 1 - Stanowisko (Position)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        76.62,
+        83.35,
+        307.32,
+        98.5
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_nazwisko",
+      "label": "26. Nazwisko",
+      "description": "Block 2 - Nazwisko (Surname)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        62.31,
+        107.76,
+        298.9,
+        122.07
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_imie",
+      "label": "27. Pierwsze imie",
+      "description": "Block 2 - Pierwsze imie (First name)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        325.85,
+        107.76,
+        553.18,
+        122.07
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep2_stanowisko",
+      "label": "28. Stanowisko",
+      "description": "Block 2 - Stanowisko (Position)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        63.15,
+        130.49,
+        305.64,
+        146.49
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_nazwisko",
+      "label": "30. Nazwisko",
+      "description": "Block 3 - Nazwisko (Surname)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        68.2,
+        154.07,
+        297.22,
+        169.22
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_imie",
+      "label": "31. Pierwsze imie",
+      "description": "Block 3 - Pierwsze imie (First name)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        318.27,
+        154.91,
+        557.39,
+        165.85
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep3_stanowisko",
+      "label": "32. Stanowisko",
+      "description": "Block 3 - Stanowisko (Position)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        54.73,
+        180.16,
+        296.38,
+        190.27
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep4_nazwisko",
+      "label": "34. Nazwisko",
+      "description": "Block 4 - Nazwisko (Surname)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        93.46,
+        199.53,
+        311.53,
+        213.84
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep4_imie",
+      "label": "35. Pierwsze imie",
+      "description": "Block 4 - Pierwsze imie (First name)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        322.48,
+        202.05,
+        560.76,
+        216.37
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "e_rep4_stanowisko",
+      "label": "36. Stanowisko",
+      "description": "Block 4 - Stanowisko (Position)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        58.94,
+        224.78,
+        314.9,
+        235.73
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    }
+  ]
+}

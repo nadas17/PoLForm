@@ -1,0 +1,257 @@
+{
+  "tabs": [
+    {
+      "id": "personal",
+      "label": "Kişisel & Vergi Dairesi",
+      "pages": "S.1 — A+B.1",
+      "groups": [
+        {
+          "title": "A. Vergi Dairesi",
+          "subtitle": "Sayfa 1 — Bölüm A",
+          "fields": [
+            { "id": "naczelnik_us", "label": "Vergi Dairesi Başkanı (Naczelnik US)", "placeholder": "NACZELNIK URZĘDU SKARBOWEGO W WARSZAWIE", "max": 80 }
+          ]
+        },
+        {
+          "title": "Üst Alan (Otomatik)",
+          "subtitle": "Sayfa 1 — Başlık",
+          "fields": [
+            { "id": "pesel", "label": "PESEL", "placeholder": "12345678901", "max": 11 },
+            { "id": "nr_dokumentu", "label": "Belge No (Nr dok.)", "placeholder": "", "max": 30 },
+            { "id": "status", "label": "Durum (Status)", "placeholder": "", "max": 20 }
+          ]
+        },
+        {
+          "title": "B.1 — Kişisel Bilgiler",
+          "subtitle": "Sayfa 1 — Bölüm B.1",
+          "fields": [
+            { "id": "nazwisko", "label": "Soyadı (Nazwisko)", "placeholder": "YILMAZ", "max": 50 },
+            { "id": "pierwsze_imie", "label": "Adı (Pierwsze imię)", "placeholder": "MEHMET", "max": 30 },
+            { "id": "imie_ojca", "label": "Baba Adı (Imię ojca)", "placeholder": "AHMET", "max": 30 },
+            { "id": "imie_matki", "label": "Anne Adı (Imię matki)", "placeholder": "FATMA", "max": 30 },
+            { "id": "nip", "label": "NIP (Vergi Numarası)", "placeholder": "1234567890", "max": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "address",
+      "label": "İkamet Adresi",
+      "pages": "S.1 — B.2",
+      "groups": [
+        {
+          "title": "B.2 — İkamet Adresi",
+          "subtitle": "Sayfa 1 — Bölüm B.2",
+          "fields": [
+            { "id": "b2_kraj", "label": "Ülke (Kraj)", "placeholder": "POLSKA", "max": 30 },
+            { "id": "b2_wojewodztwo", "label": "Voyvoda İli (Województwo)", "placeholder": "MAZOWIECKIE", "max": 30 },
+            { "id": "b2_powiat", "label": "İlçe (Powiat)", "placeholder": "M.ST. WARSZAWA", "max": 30 },
+            { "id": "b2_gmina", "label": "Belediye (Gmina)", "placeholder": "WARSZAWA", "max": 30 },
+            { "id": "b2_ulica", "label": "Sokak (Ulica)", "placeholder": "MARSZAŁKOWSKA", "max": 40 },
+            { "id": "b2_nr_domu", "label": "Bina No (Nr domu)", "placeholder": "10", "max": 10 },
+            { "id": "b2_nr_lokalu", "label": "Daire No (Nr lokalu)", "placeholder": "5", "max": 10 },
+            { "id": "b2_kod_pocztowy", "label": "Posta Kodu (Kod pocztowy)", "placeholder": "00-001", "max": 6 },
+            { "id": "b2_miejscowosc", "label": "Şehir (Miejscowość)", "placeholder": "WARSZAWA", "max": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "İletişim",
+      "pages": "S.1 — B.3",
+      "groups": [
+        {
+          "title": "B.3 — İletişim Bilgileri",
+          "subtitle": "Sayfa 1 — Bölüm B.3",
+          "fields": [
+            { "id": "telefon", "label": "Telefon", "placeholder": "+48501234567", "max": 20 },
+            { "id": "rez_telefonu", "label": "Telefon CB — Vazgeçme (Rezygnacja)", "type": "checkbox" },
+            { "id": "faks", "label": "Faks", "placeholder": "", "max": 20 },
+            { "id": "rez_faksu", "label": "Faks CB — Vazgeçme (Rezygnacja)", "type": "checkbox" },
+            { "id": "email", "label": "E-posta (E-mail)", "placeholder": "EMAIL@EXAMPLE.COM", "max": 60, "shrink": true },
+            { "id": "rez_email", "label": "E-posta CB — Vazgeçme (Rezygnacja)", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "label": "Tebligat Adresi",
+      "pages": "S.1 — B.3.1",
+      "groups": [
+        {
+          "title": "B.3.1 — Tebligat / Yazışma Adresi",
+          "subtitle": "Sayfa 1 — Bölüm B.3.1",
+          "fields": [
+            { "id": "adres_doreczen_tak", "label": "Tebligat Adresi Evet (tak) CB", "type": "checkbox" },
+            { "id": "adres_doreczen_nie", "label": "Tebligat Adresi Hayır (nie) CB", "type": "checkbox" },
+            { "id": "b31_kraj", "label": "Ülke (Kraj)", "placeholder": "POLSKA", "max": 30 },
+            { "id": "b31_wojewodztwo", "label": "Voyvoda İli (Województwo)", "placeholder": "MAZOWIECKIE", "max": 30 },
+            { "id": "b31_powiat", "label": "İlçe (Powiat)", "placeholder": "", "max": 30 },
+            { "id": "b31_gmina", "label": "Belediye (Gmina)", "placeholder": "", "max": 30 },
+            { "id": "b31_ulica", "label": "Sokak (Ulica)", "placeholder": "", "max": 40 },
+            { "id": "b31_nr_domu", "label": "Bina No (Nr domu)", "placeholder": "", "max": 10 },
+            { "id": "b31_nr_lokalu", "label": "Daire No (Nr lokalu)", "placeholder": "", "max": 10 },
+            { "id": "b31_kod_pocztowy", "label": "Posta Kodu (Kod pocztowy)", "placeholder": "", "max": 6 },
+            { "id": "b31_miejscowosc", "label": "Şehir (Miejscowość)", "placeholder": "", "max": 40 },
+            { "id": "b31_utrata", "label": "Adres Kaybı (Utrata) CB", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mailbox",
+      "label": "Posta Kutusu",
+      "pages": "S.1 — B.3.2",
+      "groups": [
+        {
+          "title": "B.3.2 — Posta Kutusu Adresi",
+          "subtitle": "Sayfa 1 — Bölüm B.3.2 (İsteğe Bağlı)",
+          "fields": [
+            { "id": "skrytka_tak", "label": "Posta Kutusu Evet (tak) CB", "type": "checkbox" },
+            { "id": "skrytka_nie", "label": "Posta Kutusu Hayır (nie) CB", "type": "checkbox" },
+            { "id": "b32_kraj", "label": "Ülke (Kraj)", "placeholder": "POLSKA", "max": 30 },
+            { "id": "b32_wojewodztwo", "label": "Voyvoda İli (Województwo)", "placeholder": "", "max": 30 },
+            { "id": "b32_powiat", "label": "İlçe (Powiat)", "placeholder": "", "max": 30 },
+            { "id": "b32_gmina", "label": "Belediye (Gmina)", "placeholder": "", "max": 30 },
+            { "id": "b32_ulica", "label": "Sokak (Ulica)", "placeholder": "", "max": 40 },
+            { "id": "b32_nr_domu", "label": "Bina No (Nr domu)", "placeholder": "", "max": 10 },
+            { "id": "b32_nr_lokalu", "label": "Daire No (Nr lokalu)", "placeholder": "", "max": 10 },
+            { "id": "b32_kod_pocztowy", "label": "Posta Kodu (Kod pocztowy)", "placeholder": "", "max": 6 },
+            { "id": "b32_miejscowosc", "label": "Şehir (Miejscowość)", "placeholder": "", "max": 40 },
+            { "id": "b32_nr_skrytki", "label": "Posta Kutusu No (Nr skrytki)", "placeholder": "", "max": 20 },
+            { "id": "b32_rezygnacja", "label": "Posta Kutusundan Vazgeçme CB", "type": "checkbox" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bank",
+      "label": "Banka Hesabı",
+      "pages": "S.2 — B.4",
+      "groups": [
+        {
+          "title": "B.4 — Banka Hesap Bilgileri",
+          "subtitle": "Sayfa 2 — Bölüm B.4",
+          "fields": [
+            { "id": "kraj_banku", "label": "Bankanın Ülkesi (Kraj banku)", "placeholder": "POLSKA", "max": 30 },
+            { "id": "kod_swift", "label": "SWIFT / BIC Kodu", "placeholder": "PKOPPLPW", "max": 11 },
+            { "id": "waluta", "label": "Para Birimi (Waluta)", "placeholder": "PLN", "max": 5 },
+            { "id": "nr_rachunku", "label": "Hesap Numarası (Nr rachunku)", "placeholder": "61109010140000071219812874", "max": 34 },
+            { "id": "iban", "label": "IBAN", "placeholder": "PL61109010140000071219812874", "max": 34 },
+            { "id": "rez_rachunku", "label": "Hesaptan Vazgeçme (Rezygnacja) CB", "type": "checkbox" }
+          ]
+        },
+        {
+          "title": "C — İmza Bilgileri",
+          "subtitle": "Sayfa 2 — Bölüm C",
+          "fields": [
+            { "id": "c_imie", "label": "İmzalayan Adı (Imię)", "placeholder": "MEHMET", "max": 30 },
+            { "id": "c_nazwisko", "label": "İmzalayan Soyadı (Nazwisko)", "placeholder": "YILMAZ", "max": 30 },
+            { "id": "c_nip_pesel", "label": "NIP / PESEL", "placeholder": "1234567890", "max": 15 },
+            { "id": "c_adres_koresp", "label": "Yazışma Adresi (Adres koresp.)", "placeholder": "UL. MARSZAŁKOWSKA 10/5, 00-001 WARSZAWA", "max": 80 },
+            { "id": "c_data", "label": "Tarih (Data)", "placeholder": "26.03.2026", "max": 10 },
+            { "id": "c_podpis", "label": "İmza (Podpis) — El yazısı ile", "placeholder": "", "max": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docimport",
+      "label": "Belge Aktar",
+      "pages": "",
+      "groups": []
+    },
+    {
+      "id": "export",
+      "label": "Dışa Aktar",
+      "pages": "",
+      "groups": []
+    }
+  ],
+  "translations": {
+    "TR_PL_MONTHS": {
+      "OCAK": "STYCZEŃ",
+      "SUBAT": "LUTY",
+      "ŞUBAT": "LUTY",
+      "MART": "MARZEC",
+      "NISAN": "KWIECIEŃ",
+      "NİSAN": "KWIECIEŃ",
+      "MAYIS": "MAJ",
+      "HAZIRAN": "CZERWIEC",
+      "HAZİRAN": "CZERWIEC",
+      "TEMMUZ": "LIPIEC",
+      "AGUSTOS": "SIERPIEŃ",
+      "AĞUSTOS": "SIERPIEŃ",
+      "EYLUL": "WRZESIEŃ",
+      "EYLÜL": "WRZESIEŃ",
+      "EKIM": "PAŹDZIERNIK",
+      "KASIM": "LISTOPAD",
+      "ARALIK": "GRUDZIEŃ"
+    },
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA",
+      "TÜRKİYE": "TURCJA",
+      "TURCJA": "TURCJA",
+      "ALMANYA": "NIEMCY",
+      "FRANSA": "FRANCJA",
+      "INGILTERE": "WIELKA BRYTANIA",
+      "İNGİLTERE": "WIELKA BRYTANIA",
+      "ITALYA": "WŁOCHY",
+      "İTALYA": "WŁOCHY",
+      "ISPANYA": "HISZPANIA",
+      "İSPANYA": "HISZPANIA",
+      "HOLLANDA": "HOLANDIA",
+      "BELCIKA": "BELGIA",
+      "BELÇİKA": "BELGIA",
+      "AVUSTURYA": "AUSTRIA",
+      "ISVICRE": "SZWAJCARIA",
+      "İSVİÇRE": "SZWAJCARIA",
+      "YUNANISTAN": "GRECJA",
+      "BULGARISTAN": "BUŁGARIA",
+      "ROMANYA": "RUMUNIA",
+      "UKRAYNA": "UKRAINA",
+      "RUSYA": "ROSJA",
+      "IRAN": "IRAN",
+      "İRAN": "IRAN",
+      "IRAK": "IRAK",
+      "SURIYE": "SYRIA",
+      "SURİYE": "SYRIA",
+      "MISIR": "EGIPT",
+      "ABD": "USA",
+      "AMERIKA": "USA",
+      "KANADA": "KANADA",
+      "CIN": "CHINY",
+      "ÇİN": "CHINY",
+      "JAPONYA": "JAPONIA",
+      "PAKISTAN": "PAKISTAN",
+      "PAKİSTAN": "PAKISTAN",
+      "BANGLADES": "BANGLADESZ",
+      "BANGLADEŞ": "BANGLADESZ",
+      "HINDISTAN": "INDIE",
+      "HİNDİSTAN": "INDIE",
+      "GURCISTAN": "GRUZJA",
+      "GÜRCÜSTAN": "GRUZJA",
+      "AZERBAYCAN": "AZERBEJDŻAN",
+      "OZBEKISTAN": "UZBEKISTAN",
+      "ÖZBEKİSTAN": "UZBEKISTAN",
+      "TURKMENISTAN": "TURKMENISTAN",
+      "TÜRKMENİSTAN": "TURKMENISTAN",
+      "KAZAKISTAN": "KAZACHSTAN",
+      "KIRGIZISTAN": "KIRGISTAN",
+      "TACIKISTAN": "TADŻYKISTAN",
+      "TAYİKİSTAN": "TADŻYKISTAN",
+      "NEPAL": "NEPAL",
+      "SRI LANKA": "SRI LANKA",
+      "POLONYA": "POLSKA",
+      "POLSKA": "POLSKA"
+    }
+  },
+  "total_fields": 62,
+  "download_name": "{nazwisko}_{imie}_{date}.pdf",
+  "name_fields": {
+    "surname": "nazwisko",
+    "name": "pierwsze_imie"
+  }
+}

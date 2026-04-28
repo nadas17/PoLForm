@@ -1,0 +1,228 @@
+{
+  "tabs": [
+    {
+      "id": "entity",
+      "label": "Kuruluş & Amaç",
+      "pages": "S.1 — Bölüm A+B",
+      "groups": [
+        {
+          "title": "Başlık Bilgileri",
+          "subtitle": "Üst kısım — NIP ve döküman numarası",
+          "fields": [
+            { "id": "nip", "label": "Vergi Kimlik No (NIP)", "placeholder": "1234567890", "max": 10 },
+            { "id": "nr_dokumentu", "label": "Döküman Numarası", "placeholder": "", "max": 20 },
+            { "id": "status", "label": "Durum (Status)", "placeholder": "", "max": 20 },
+            { "id": "nr_egzemplarza", "label": "Kopya No / Toplam Kopya", "placeholder": "1/2", "max": 10 }
+          ]
+        },
+        {
+          "title": "A. Yetkili Vergi Dairesi & Amaç",
+          "subtitle": "Bölüm A — Vergi dairesi başkanı ve bildirim amacı",
+          "fields": [
+            { "id": "naczelnik_us", "label": "Yetkili Vergi Dairesi Başkanı", "placeholder": "NACZELNIK URZĘDU SKARBOWEGO WARSZAWA-ŚRÓDMIEŚCIE", "max": 80 },
+            { "id": "cel_nadanie", "label": "1. Yetki Verme (nadanie uprawnień)", "type": "checkbox" },
+            { "id": "cel_odebranie", "label": "2. Yetki Kaldırma (odebranie uprawnień)", "type": "checkbox" },
+            { "id": "cel_odebranie_wszystkich", "label": "3. Tüm Yetkileri Kaldırma (odebranie wszelkich uprawnień)", "type": "checkbox" },
+            { "id": "cel_dane_sha256", "label": "4. SHA-256 Kripto Verisi Kayıt (zgłoszenie danych SHA-256)", "type": "checkbox" }
+          ]
+        },
+        {
+          "title": "B.1 Kuruluş Türü ve Adı",
+          "subtitle": "Bölüm B.1 — Kuruluş türü ve tam adı",
+          "fields": [
+            { "id": "rodzaj_podmiot", "label": "1. Tüzel Kişi (podmiot niebędący osobą fizyczną)", "type": "checkbox" },
+            { "id": "rodzaj_organ", "label": "2. İcra Organı (organ egzekucyjny)", "type": "checkbox" },
+            { "id": "rodzaj_osoba_fiz", "label": "3. Gerçek Kişi (osoba fizyczna)", "type": "checkbox" },
+            { "id": "nazwa_pelna", "label": "Tam Adı / Soyadı ve Adı", "placeholder": "FIRMA SP. Z O.O. veya KOWALSKI JAN", "max": 80 }
+          ]
+        },
+        {
+          "title": "B.2 Kuruluş İletişim Bilgileri",
+          "subtitle": "Bölüm B.2 — Telefon ve e-posta",
+          "fields": [
+            { "id": "b2_telefon", "label": "Telefon", "placeholder": "+48501234567", "max": 30 },
+            { "id": "b2_email", "label": "E-posta", "placeholder": "FIRMA@EXAMPLE.COM", "max": 60, "shrink": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authorized",
+      "label": "Yetkili Kişi",
+      "pages": "S.1 — Bölüm C.1",
+      "groups": [
+        {
+          "title": "C.1 Yetkili Kişi Kimlik Bilgileri",
+          "subtitle": "Bölüm C.1 — NIP/PESEL ve kişisel bilgiler",
+          "fields": [
+            { "id": "id_nip", "label": "Kimlik Türü: NIP", "type": "checkbox" },
+            { "id": "id_pesel", "label": "Kimlik Türü: PESEL", "type": "checkbox" },
+            { "id": "id_brak", "label": "Kimlik Türü: Yok (brak)", "type": "checkbox" },
+            { "id": "id_numer", "label": "NIP / PESEL Numarası", "placeholder": "12345678901", "max": 11 },
+            { "id": "c1_nazwisko", "label": "Soyadı (Nazwisko)", "placeholder": "YILMAZ", "max": 40 },
+            { "id": "c1_imie", "label": "Adı (Pierwsze imię)", "placeholder": "MEHMET", "max": 30 },
+            { "id": "c1_data_urodzenia", "label": "Doğum Tarihi (YYYY/MM/DD)", "placeholder": "1990/05/15", "max": 10 },
+            { "id": "c1_rodzaj_dokumentu", "label": "Kimlik Belgesi Türü", "placeholder": "PASZPORT", "max": 40 },
+            { "id": "c1_nr_dokumentu", "label": "Belge No ve Serisi", "placeholder": "AA1234567", "max": 20 },
+            { "id": "c1_kraj_dokumentu", "label": "Belgenin Verildiği Ülke", "placeholder": "TURCJA", "max": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "İletişim",
+      "pages": "S.1 — Bölüm C.2",
+      "groups": [
+        {
+          "title": "C.2 Yetkili Kişi İletişim",
+          "subtitle": "Bölüm C.2 — Yetkili kişinin telefon ve e-postası",
+          "fields": [
+            { "id": "c2_telefon", "label": "Telefon", "placeholder": "+48501234567", "max": 30 },
+            { "id": "c2_email", "label": "E-posta", "placeholder": "YILMAZ@EXAMPLE.COM", "max": 60, "shrink": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "label": "SHA-256 Verisi",
+      "pages": "S.1 — Bölüm D",
+      "groups": [
+        {
+          "title": "D. SHA-256 Kripto Verisi",
+          "subtitle": "Bölüm D — Yalnızca cel_dane_sha256 seçildiğinde doldurun",
+          "fields": [
+            { "id": "d_sha256", "label": "SHA-256 Hash Değeri", "placeholder": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "max": 64, "shrink": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "representatives",
+      "label": "Temsilciler",
+      "pages": "S.2 — Bölüm E",
+      "groups": [
+        {
+          "title": "E. Yetkili Temsilciler (4 satır)",
+          "subtitle": "Bölüm E — İmzaya yetkili kişiler",
+          "fields": [
+            { "id": "e_rep1_nazwisko", "label": "Temsilci 1 — Soyadı", "placeholder": "KOWALSKI", "max": 40 },
+            { "id": "e_rep1_imie", "label": "Temsilci 1 — Adı", "placeholder": "JAN", "max": 30 },
+            { "id": "e_rep1_stanowisko", "label": "Temsilci 1 — Görevi", "placeholder": "PREZES ZARZĄDU", "max": 50 },
+            { "id": "e_rep1_podpis", "label": "Temsilci 1 — İmza", "placeholder": "", "max": 40 },
+            { "id": "e_rep2_nazwisko", "label": "Temsilci 2 — Soyadı", "placeholder": "", "max": 40 },
+            { "id": "e_rep2_imie", "label": "Temsilci 2 — Adı", "placeholder": "", "max": 30 },
+            { "id": "e_rep2_stanowisko", "label": "Temsilci 2 — Görevi", "placeholder": "", "max": 50 },
+            { "id": "e_rep2_podpis", "label": "Temsilci 2 — İmza", "placeholder": "", "max": 40 },
+            { "id": "e_rep3_nazwisko", "label": "Temsilci 3 — Soyadı", "placeholder": "", "max": 40 },
+            { "id": "e_rep3_imie", "label": "Temsilci 3 — Adı", "placeholder": "", "max": 30 },
+            { "id": "e_rep3_stanowisko", "label": "Temsilci 3 — Görevi", "placeholder": "", "max": 50 },
+            { "id": "e_rep3_podpis", "label": "Temsilci 3 — İmza", "placeholder": "", "max": 40 },
+            { "id": "e_rep4_nazwisko", "label": "Temsilci 4 — Soyadı", "placeholder": "", "max": 40 },
+            { "id": "e_rep4_imie", "label": "Temsilci 4 — Adı", "placeholder": "", "max": 30 },
+            { "id": "e_rep4_stanowisko", "label": "Temsilci 4 — Görevi", "placeholder": "", "max": 50 },
+            { "id": "e_rep4_podpis", "label": "Temsilci 4 — İmza", "placeholder": "", "max": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docimport",
+      "label": "Belge Aktar",
+      "pages": "",
+      "groups": []
+    },
+    {
+      "id": "export",
+      "label": "Dışa Aktar",
+      "pages": "",
+      "groups": []
+    }
+  ],
+  "checkbox_groups": [
+    {
+      "id": "purpose",
+      "label": "Bildirim Amacı",
+      "fields": ["cel_nadanie", "cel_odebranie", "cel_odebranie_wszystkich", "cel_dane_sha256"],
+      "exclusive": true
+    },
+    {
+      "id": "entity_type",
+      "label": "Kuruluş Türü",
+      "fields": ["rodzaj_podmiot", "rodzaj_organ", "rodzaj_osoba_fiz"],
+      "exclusive": true
+    },
+    {
+      "id": "id_type",
+      "label": "Kimlik Türü",
+      "fields": ["id_nip", "id_pesel", "id_brak"],
+      "exclusive": true
+    }
+  ],
+  "translations": {
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA",
+      "TÜRKİYE": "TURCJA",
+      "TURCJA": "TURCJA",
+      "ALMANYA": "NIEMCY",
+      "FRANSA": "FRANCJA",
+      "INGILTERE": "WIELKA BRYTANIA",
+      "İNGİLTERE": "WIELKA BRYTANIA",
+      "ITALYA": "WŁOCHY",
+      "İTALYA": "WŁOCHY",
+      "ISPANYA": "HISZPANIA",
+      "İSPANYA": "HISZPANIA",
+      "HOLLANDA": "HOLANDIA",
+      "BELCIKA": "BELGIA",
+      "BELÇİKA": "BELGIA",
+      "AVUSTURYA": "AUSTRIA",
+      "ISVICRE": "SZWAJCARIA",
+      "İSVİÇRE": "SZWAJCARIA",
+      "YUNANISTAN": "GRECJA",
+      "BULGARISTAN": "BUŁGARIA",
+      "ROMANYA": "RUMUNIA",
+      "UKRAYNA": "UKRAINA",
+      "RUSYA": "ROSJA",
+      "IRAN": "IRAN",
+      "İRAN": "IRAN",
+      "IRAK": "IRAK",
+      "SURIYE": "SYRIA",
+      "SURİYE": "SYRIA",
+      "MISIR": "EGIPT",
+      "ABD": "USA",
+      "AMERIKA": "USA",
+      "KANADA": "KANADA",
+      "CIN": "CHINY",
+      "ÇİN": "CHINY",
+      "JAPONYA": "JAPONIA",
+      "PAKISTAN": "PAKISTAN",
+      "PAKİSTAN": "PAKISTAN",
+      "BANGLADES": "BANGLADESZ",
+      "BANGLADEŞ": "BANGLADESZ",
+      "HINDISTAN": "INDIE",
+      "HİNDİSTAN": "INDIE",
+      "GURCISTAN": "GRUZJA",
+      "GÜRCÜSTAN": "GRUZJA",
+      "AZERBAYCAN": "AZERBEJDŻAN",
+      "OZBEKISTAN": "UZBEKISTAN",
+      "ÖZBEKİSTAN": "UZBEKISTAN",
+      "TURKMENISTAN": "TURKMENISTAN",
+      "TÜRKMENİSTAN": "TURKMENISTAN",
+      "KAZAKISTAN": "KAZACHSTAN",
+      "KIRGIZISTAN": "KIRGISTAN",
+      "TACIKISTAN": "TADŻYKISTAN",
+      "TAYİKİSTAN": "TADŻYKISTAN",
+      "NEPAL": "NEPAL",
+      "SRI LANKA": "SRI LANKA",
+      "POLONYA": "POLSKA",
+      "POLSKA": "POLSKA"
+    }
+  },
+  "total_fields": 37,
+  "download_name": "ZAW-FA_{nazwisko}_{date}.pdf",
+  "name_fields": {
+    "surname": "c1_nazwisko",
+    "name": "c1_imie"
+  }
+}

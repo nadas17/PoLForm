@@ -1,0 +1,92 @@
+{
+  "tabs": [
+    {
+      "id": "company",
+      "label": "Kuruluş Bilgileri",
+      "pages": "S.1-2",
+      "groups": [
+        {
+          "title": "Kuruluş Adı",
+          "subtitle": "Sayfa 1 — Sol kenar (2 satıra bölün)",
+          "fields": [
+            { "id": "company_line1", "label": "1. satır (Adı)",       "placeholder": "RUFFY",   "max": 12 },
+            { "id": "company_line2", "label": "2. satır (Tür/Form)",  "placeholder": "SPZO.O.", "max": 12 }
+          ]
+        },
+        {
+          "title": "Kuruluş Kimliği",
+          "subtitle": "Sayfa 2 — KRS ve NIP numaraları",
+          "fields": [
+            { "id": "krs", "label": "KRS Numarası",     "placeholder": "0001230547", "max": 10 },
+            { "id": "nip", "label": "NIP (Vergi No)",   "placeholder": "544326513",  "max": 9 }
+          ]
+        },
+        {
+          "title": "Kuruluş Adresi",
+          "subtitle": "Sayfa 2 — Tescilli adres",
+          "fields": [
+            { "id": "street",      "label": "Sokak (Ulica)",                   "placeholder": "ul.TORUŃSKA",   "max": 30 },
+            { "id": "house_no",    "label": "Bina/Daire (Nr domu/lokalu)",     "placeholder": "15/77",          "max": 10 },
+            { "id": "postal_code", "label": "Posta Kodu (Kod pocztowy)",       "placeholder": "80-747",         "max": 6 },
+            { "id": "city",        "label": "Şehir (Miejscowość)",             "placeholder": "GDAŃSK",         "max": 30 },
+            { "id": "country",     "label": "Ülke (Kraj)",                     "placeholder": "POLSKA",         "max": 30 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "employment",
+      "label": "İş İlişkisi",
+      "pages": "S.3",
+      "groups": [
+        {
+          "title": "Pozisyon Bilgileri",
+          "subtitle": "Sayfa 3 — İş tanımı ve dayanak",
+          "fields": [
+            { "id": "position",     "label": "Pozisyon (Stanowisko)",           "placeholder": "CZŁONEK ZARZĄDU",          "max": 80 },
+            { "id": "place",        "label": "Çalışma Yeri (Miejsce pracy)",    "placeholder": "GDAŃSK",                    "max": 60 },
+            { "id": "basis",        "label": "Yasal Dayanak (Podstawa)",        "placeholder": "UCHWAŁA",                   "max": 60 },
+            { "id": "working_time", "label": "Çalışma Süresi (Wymiar)",         "placeholder": "PEŁNY ETAT",                "max": 40 }
+          ]
+        },
+        {
+          "title": "Maaş",
+          "subtitle": "Sayfa 3 — Rakam + yazıyla",
+          "fields": [
+            { "id": "salary_amount", "label": "Maaş (rakam, Wynagrodzenie)",     "placeholder": "2500 PLN",                      "max": 30 },
+            { "id": "salary_words",  "label": "Maaş (yazıyla, Słownie)",         "placeholder": "DWA TYSIĄCE PIĘĆSET",           "max": 80, "shrink": true }
+          ]
+        },
+        {
+          "title": "Görev Tanımı",
+          "subtitle": "Sayfa 3 — Sorumluluk açıklaması",
+          "fields": [
+            { "id": "duties", "label": "Görev Tanımı (Zakres obowiązków)", "placeholder": "ZARZĄDZANIE SPÓŁKĄ I REPREZENTOWANIE.", "max": 200 }
+          ]
+        },
+        {
+          "title": "Çalışma Süresi (Tarih Aralığı)",
+          "subtitle": "Sayfa 3 — Başlangıç ve bitiş tarihleri (YYYYMMDD)",
+          "fields": [
+            { "id": "start_date", "label": "Başlangıç Tarihi", "placeholder": "20260420", "max": 8 },
+            { "id": "end_date",   "label": "Bitiş Tarihi",     "placeholder": "20290419", "max": 8 }
+          ]
+        }
+      ]
+    },
+    { "id": "docimport", "label": "Belge Aktar", "pages": "", "groups": [] },
+    { "id": "export",    "label": "Dışa Aktar",  "pages": "", "groups": [] }
+  ],
+  "translations": {
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA", "TÜRKİYE": "TURCJA",
+      "POLONYA": "POLSKA", "ALMANYA": "NIEMCY"
+    }
+  },
+  "total_fields": 18,
+  "download_name": "zal1_old_{city}_{date}.pdf",
+  "name_fields": {
+    "surname": "city",
+    "name": "krs"
+  }
+}

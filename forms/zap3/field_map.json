@@ -1,0 +1,1418 @@
+{
+  "meta": {
+    "form_title": "ZAP-3 Zgloszenie aktualizacyjne osoby fizycznej",
+    "total_pages": 2,
+    "pdf_width_pt": 595.28,
+    "pdf_height_pt": 841.89,
+    "coordinate_system": "PDF points, y=0 at TOP (pdfplumber style)",
+    "version": "v5"
+  },
+  "form_fields": [
+    {
+      "field_id": "pesel",
+      "label": "1.",
+      "description": "Header field 1",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        58.0,
+        37.0,
+        240.4,
+        49.5
+      ],
+      "num_cells": 11,
+      "cell_bboxes": [
+        [
+          58.0,
+          37.0,
+          74.8,
+          49.5
+        ],
+        [
+          74.8,
+          37.0,
+          91.6,
+          49.5
+        ],
+        [
+          91.6,
+          37.0,
+          108.4,
+          49.5
+        ],
+        [
+          108.4,
+          37.0,
+          125.19999999999999,
+          49.5
+        ],
+        [
+          125.19999999999999,
+          37.0,
+          142.0,
+          49.5
+        ],
+        [
+          142.0,
+          37.0,
+          158.2,
+          49.5
+        ],
+        [
+          158.2,
+          37.0,
+          175.0,
+          49.5
+        ],
+        [
+          175.0,
+          37.0,
+          191.8,
+          49.5
+        ],
+        [
+          191.8,
+          37.0,
+          208.0,
+          49.5
+        ],
+        [
+          208.0,
+          37.0,
+          224.8,
+          49.5
+        ],
+        [
+          224.8,
+          37.0,
+          240.4,
+          49.5
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "naczelnik_us",
+      "label": "A. 4.",
+      "description": "Section A - Field 4",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        32.84,
+        234.05,
+        543.08,
+        247.52
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "nazwisko",
+      "label": "B.1 5.",
+      "description": "Section B.1 - Field 5 Label",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        27.79,
+        311.5,
+        316.58,
+        324.97
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "pierwsze_imie",
+      "label": "6.",
+      "description": "Section B.1 - Field 6",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        325.85,
+        310.66,
+        552.34,
+        324.97
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "imie_ojca",
+      "label": "7.",
+      "description": "Section B.1 - Field 7",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        334.23,
+        232.39,
+        350.23
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "imie_matki",
+      "label": "8.",
+      "description": "Section B.1 - Field 8",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        232.39,
+        335.07,
+        388.99,
+        349.38
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "nip",
+      "label": "9.",
+      "description": "Section B.1 - Field 9",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        397.41,
+        334.23,
+        554.86,
+        346.86
+      ],
+      "num_cells": 10,
+      "cell_bboxes": [
+        [
+          397.41,
+          334.23,
+          413.16,
+          346.86
+        ],
+        [
+          413.16,
+          334.23,
+          428.9,
+          346.86
+        ],
+        [
+          428.9,
+          334.23,
+          444.65,
+          346.86
+        ],
+        [
+          444.65,
+          334.23,
+          460.39,
+          346.86
+        ],
+        [
+          460.39,
+          334.23,
+          476.13,
+          346.86
+        ],
+        [
+          476.13,
+          334.23,
+          491.88,
+          346.86
+        ],
+        [
+          491.88,
+          334.23,
+          507.62,
+          346.86
+        ],
+        [
+          507.62,
+          334.23,
+          523.37,
+          346.86
+        ],
+        [
+          523.37,
+          334.23,
+          539.12,
+          346.86
+        ],
+        [
+          539.12,
+          334.23,
+          554.86,
+          346.86
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_kraj",
+      "label": "10.",
+      "description": "Section B.2 - Field 10",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        383.9,
+        172.61,
+        397.37
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_wojewodztwo",
+      "label": "11.",
+      "description": "Section B.2 - Field 11",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        172.61,
+        382.22,
+        388.15,
+        398.21
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_powiat",
+      "label": "12.",
+      "description": "Section B.2 - Field 12",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        388.15,
+        381.38,
+        567.49,
+        397.37
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_gmina",
+      "label": "13.",
+      "description": "Section B.2 - Field 13",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        406.63,
+        194.5,
+        420.94
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_ulica",
+      "label": "14.",
+      "description": "Section B.2 - Field 14",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        194.5,
+        406.63,
+        458.04,
+        420.94
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_nr_domu",
+      "label": "15.",
+      "description": "Section B.2 - Field 15",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        458.04,
+        407.47,
+        514.45,
+        420.94
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_nr_lokalu",
+      "label": "16.",
+      "description": "Section B.2 - Field 16",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        514.45,
+        408.32,
+        567.49,
+        420.94
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_kod_pocztowy",
+      "label": "17.",
+      "description": "Section B.2 - Field 17",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        26.94,
+        430.21,
+        98.94,
+        444.52
+      ],
+      "num_cells": 6,
+      "cell_bboxes": [
+        [
+          26.94,
+          430.21,
+          38.94,
+          444.52
+        ],
+        [
+          38.94,
+          430.21,
+          50.94,
+          444.52
+        ],
+        [
+          50.94,
+          430.21,
+          62.94,
+          444.52
+        ],
+        [
+          62.94,
+          430.21,
+          74.94,
+          444.52
+        ],
+        [
+          74.94,
+          430.21,
+          86.94,
+          444.52
+        ],
+        [
+          86.94,
+          430.21,
+          98.94,
+          444.52
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b2_miejscowosc",
+      "label": "18.",
+      "description": "Section B.2 - Field 18",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        194.5,
+        430.21,
+        567.49,
+        444.52
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "telefon",
+      "label": "19.",
+      "description": "Section B.3 - Field 19 (Telefon)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        76.62,
+        476.51,
+        440.36,
+        490.82
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "rez_faksu_cb",
+      "label": "22.",
+      "description": "Section B.3 - Field 22 (Checkbox)",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        227.33,
+        502.24,
+        235.75,
+        511.5
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "email",
+      "label": "23.",
+      "description": "Section B.3 - Field 23",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        277.85,
+        500.92,
+        479.93,
+        515.24
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "field_1_25_19_nie",
+      "label": "B.3.1 25.",
+      "description": "Section B.3.1 - Field 25 (tak/nie checkbox)",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        250.91,
+        548.07,
+        259.33,
+        555.65
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "field_1_25_20_nie",
+      "label": "B.3.1 25. (nie)",
+      "description": "Section B.3.1 - Field 25 nie (checkbox)",
+      "page": 1,
+      "field_type": "checkbox",
+      "bbox": [
+        312.37,
+        548.07,
+        320.79,
+        555.65
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "b31_kraj",
+      "label": "26.",
+      "description": "Section B.3.1 - Field 26",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        574.17,
+        172.61,
+        584.27
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_wojewodztwo",
+      "label": "27.",
+      "description": "Section B.3.1 - Field 27",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        172.61,
+        574.17,
+        398.26,
+        584.27
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_powiat",
+      "label": "28.",
+      "description": "Section B.3.1 - Field 28",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        398.26,
+        574.17,
+        567.49,
+        584.27
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_gmina",
+      "label": "29.",
+      "description": "Section B.3.1 - Field 29",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        597.74,
+        194.5,
+        607.84
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_ulica",
+      "label": "30.",
+      "description": "Section B.3.1 - Field 30",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        194.5,
+        597.74,
+        458.04,
+        607.84
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_nr_domu",
+      "label": "31.",
+      "description": "Section B.3.1 - Field 31",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        458.04,
+        597.74,
+        514.45,
+        607.84
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_nr_lokalu",
+      "label": "32.",
+      "description": "Section B.3.1 - Field 32",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        514.45,
+        597.74,
+        567.49,
+        607.84
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_kod_pocztowy",
+      "label": "33.",
+      "description": "Section B.3.1 - Field 33",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        26.94,
+        621.31,
+        98.94,
+        631.42
+      ],
+      "num_cells": 6,
+      "cell_bboxes": [
+        [
+          26.94,
+          621.31,
+          38.94,
+          631.42
+        ],
+        [
+          38.94,
+          621.31,
+          50.94,
+          631.42
+        ],
+        [
+          50.94,
+          621.31,
+          62.94,
+          631.42
+        ],
+        [
+          62.94,
+          621.31,
+          74.94,
+          631.42
+        ],
+        [
+          74.94,
+          621.31,
+          86.94,
+          631.42
+        ],
+        [
+          86.94,
+          621.31,
+          98.94,
+          631.42
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b31_miejscowosc",
+      "label": "34.",
+      "description": "Section B.3.1 - Field 34",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        194.5,
+        621.31,
+        567.49,
+        631.42
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_kraj",
+      "label": "37.",
+      "description": "Section B.3.2 - Field 37",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        31.15,
+        709.71,
+        159.98,
+        723.18
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_wojewodztwo",
+      "label": "38.",
+      "description": "Section B.3.2 - Field 38",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        170.92,
+        710.56,
+        378.05,
+        723.18
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_powiat",
+      "label": "39.",
+      "description": "Section B.3.2 - Field 39",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        395.73,
+        711.4,
+        564.97,
+        724.03
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_gmina",
+      "label": "40.",
+      "description": "Section B.3.2 - Field 40",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        32.0,
+        733.29,
+        187.76,
+        746.76
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_ulica",
+      "label": "41.",
+      "description": "Section B.3.2 - Field 41",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        202.92,
+        734.97,
+        433.62,
+        747.6
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_nr_domu",
+      "label": "42.",
+      "description": "Section B.3.2 - Field 42 (Nr domu)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        443.72,
+        734.97,
+        499.29,
+        746.76
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_nr_lokalu",
+      "label": "43.",
+      "description": "Section B.3.2 - Field 43 (Nr lokalu)",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        507.71,
+        734.97,
+        566.65,
+        748.44
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_kod_pocztowy",
+      "label": "44.",
+      "description": "Section B.3.2 - Field 44",
+      "page": 1,
+      "field_type": "char_boxes",
+      "bbox": [
+        31.15,
+        757.7,
+        103.15,
+        769.49
+      ],
+      "num_cells": 6,
+      "cell_bboxes": [
+        [
+          31.15,
+          757.7,
+          43.15,
+          769.49
+        ],
+        [
+          43.15,
+          757.7,
+          55.15,
+          769.49
+        ],
+        [
+          55.15,
+          757.7,
+          67.15,
+          769.49
+        ],
+        [
+          67.15,
+          757.7,
+          79.15,
+          769.49
+        ],
+        [
+          79.15,
+          757.7,
+          91.15,
+          769.49
+        ],
+        [
+          91.15,
+          757.7,
+          103.15,
+          769.49
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_miejscowosc",
+      "label": "45.",
+      "description": "Section B.3.2 - Field 45",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        198.71,
+        758.54,
+        320.79,
+        771.17
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "b32_nr_skrytki",
+      "label": "46.",
+      "description": "Section B.3.2 - Field 46",
+      "page": 1,
+      "field_type": "table_cell",
+      "bbox": [
+        327.53,
+        757.7,
+        472.35,
+        772.01
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "bank_details",
+      "label": "48.",
+      "description": "Page 2 - Field 48 (Bank details)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        29.47,
+        90.08,
+        564.97,
+        103.55
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "kod_swift",
+      "label": "49.",
+      "description": "Page 2 - Field 49 (SWIFT)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        26.94,
+        116.18,
+        308.16,
+        126.28
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "waluta",
+      "label": "50.",
+      "description": "Page 2 - Field 50 (Waluta)",
+      "page": 2,
+      "field_type": "char_boxes",
+      "bbox": [
+        415.94,
+        113.66,
+        463.04,
+        123.76
+      ],
+      "num_cells": 3,
+      "cell_bboxes": [
+        [
+          415.94,
+          113.66,
+          431.64,
+          123.76
+        ],
+        [
+          431.64,
+          113.66,
+          447.34,
+          123.76
+        ],
+        [
+          447.34,
+          113.66,
+          463.04,
+          123.76
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "nr_rachunku",
+      "label": "51.",
+      "description": "Page 2 - Field 51 (IBAN)",
+      "page": 2,
+      "field_type": "char_boxes",
+      "bbox": [
+        108.62,
+        134.7,
+        499.92,
+        149.86
+      ],
+      "num_cells": 26,
+      "cell_bboxes": [
+        [
+          108.62,
+          134.7,
+          123.67,
+          149.86
+        ],
+        [
+          123.67,
+          134.7,
+          138.72,
+          149.86
+        ],
+        [
+          138.72,
+          134.7,
+          153.77,
+          149.86
+        ],
+        [
+          153.77,
+          134.7,
+          168.82,
+          149.86
+        ],
+        [
+          168.82,
+          134.7,
+          183.87,
+          149.86
+        ],
+        [
+          183.87,
+          134.7,
+          198.92,
+          149.86
+        ],
+        [
+          198.92,
+          134.7,
+          213.97,
+          149.86
+        ],
+        [
+          213.97,
+          134.7,
+          229.02,
+          149.86
+        ],
+        [
+          229.02,
+          134.7,
+          244.07,
+          149.86
+        ],
+        [
+          244.07,
+          134.7,
+          259.12,
+          149.86
+        ],
+        [
+          259.12,
+          134.7,
+          274.17,
+          149.86
+        ],
+        [
+          274.17,
+          134.7,
+          289.22,
+          149.86
+        ],
+        [
+          289.22,
+          134.7,
+          304.27,
+          149.86
+        ],
+        [
+          304.27,
+          134.7,
+          319.32,
+          149.86
+        ],
+        [
+          319.32,
+          134.7,
+          334.37,
+          149.86
+        ],
+        [
+          334.37,
+          134.7,
+          349.42,
+          149.86
+        ],
+        [
+          349.42,
+          134.7,
+          364.47,
+          149.86
+        ],
+        [
+          364.47,
+          134.7,
+          379.52,
+          149.86
+        ],
+        [
+          379.52,
+          134.7,
+          394.57,
+          149.86
+        ],
+        [
+          394.57,
+          134.7,
+          409.62,
+          149.86
+        ],
+        [
+          409.62,
+          134.7,
+          424.67,
+          149.86
+        ],
+        [
+          424.67,
+          134.7,
+          439.72,
+          149.86
+        ],
+        [
+          439.72,
+          134.7,
+          454.77,
+          149.86
+        ],
+        [
+          454.77,
+          134.7,
+          469.82,
+          149.86
+        ],
+        [
+          469.82,
+          134.7,
+          484.87,
+          149.86
+        ],
+        [
+          484.87,
+          134.7,
+          499.92,
+          149.86
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "rez_rachunku_cb",
+      "label": "52.",
+      "description": "Page 2 - Field 52 (Checkbox)",
+      "page": 2,
+      "field_type": "checkbox",
+      "bbox": [
+        530.45,
+        138.07,
+        543.08,
+        149.01
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": ""
+    },
+    {
+      "field_id": "c_imie",
+      "label": "C. 53.",
+      "description": "Section C - Field 53 (Imię)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        29.47,
+        193.63,
+        307.32,
+        207.95
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c_nazwisko",
+      "label": "54.",
+      "description": "Section C - Field 54 (Nazwisko)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        310.69,
+        194.48,
+        570.02,
+        207.1
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c_nip_pesel",
+      "label": "55.",
+      "description": "Section C - Field 55 (NIP/PESEL)",
+      "page": 2,
+      "field_type": "char_boxes",
+      "bbox": [
+        210.5,
+        214.68,
+        389.84,
+        229.84
+      ],
+      "num_cells": 11,
+      "cell_bboxes": [
+        [
+          210.5,
+          214.68,
+          226.8,
+          229.84
+        ],
+        [
+          226.8,
+          214.68,
+          243.11,
+          229.84
+        ],
+        [
+          243.11,
+          214.68,
+          259.41,
+          229.84
+        ],
+        [
+          259.41,
+          214.68,
+          275.71,
+          229.84
+        ],
+        [
+          275.71,
+          214.68,
+          292.02,
+          229.84
+        ],
+        [
+          292.02,
+          214.68,
+          308.32,
+          229.84
+        ],
+        [
+          308.32,
+          214.68,
+          324.63,
+          229.84
+        ],
+        [
+          324.63,
+          214.68,
+          340.93,
+          229.84
+        ],
+        [
+          340.93,
+          214.68,
+          357.23,
+          229.84
+        ],
+        [
+          357.23,
+          214.68,
+          373.54,
+          229.84
+        ],
+        [
+          373.54,
+          214.68,
+          389.84,
+          229.84
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c_adres",
+      "label": "56.",
+      "description": "Section C - Field 56 (Address)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        31.15,
+        243.31,
+        560.76,
+        275.3
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c_data",
+      "label": "57.",
+      "description": "Section C - Field 57 (Data)",
+      "page": 2,
+      "field_type": "date_boxes",
+      "bbox": [
+        66.52,
+        289.61,
+        205.44,
+        302.24
+      ],
+      "num_cells": 10,
+      "cell_bboxes": [
+        [
+          66.52,
+          289.61,
+          80.41,
+          302.24
+        ],
+        [
+          80.41,
+          289.61,
+          94.3,
+          302.24
+        ],
+        [
+          94.3,
+          289.61,
+          108.2,
+          302.24
+        ],
+        [
+          108.2,
+          289.61,
+          122.09,
+          302.24
+        ],
+        [
+          122.09,
+          289.61,
+          135.98,
+          302.24
+        ],
+        [
+          135.98,
+          289.61,
+          149.87,
+          302.24
+        ],
+        [
+          149.87,
+          289.61,
+          163.76,
+          302.24
+        ],
+        [
+          163.76,
+          289.61,
+          177.66,
+          302.24
+        ],
+        [
+          177.66,
+          289.61,
+          191.55,
+          302.24
+        ],
+        [
+          191.55,
+          289.61,
+          205.44,
+          302.24
+        ]
+      ],
+      "notes": "",
+      "font_size": 10
+    },
+    {
+      "field_id": "c_podpis",
+      "label": "58.",
+      "description": "Section C - Field 58 (Podpis)",
+      "page": 2,
+      "field_type": "table_cell",
+      "bbox": [
+        248.38,
+        288.77,
+        561.6,
+        301.4
+      ],
+      "num_cells": 0,
+      "cell_bboxes": [],
+      "notes": "",
+      "font_size": 10
+    }
+  ]
+}

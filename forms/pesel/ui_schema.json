@@ -1,0 +1,389 @@
+{
+  "tabs": [
+    {
+      "id": "applicant",
+      "label": "Başvuran",
+      "pages": "S.1",
+      "groups": [
+        {
+          "title": "1. Wnioskodawca (Başvuran)",
+          "subtitle": "Sayfa 1",
+          "fields": [
+            { "id": "s1_name", "label": "İsim (Imię)", "placeholder": "MEHMET", "max": 50 },
+            { "id": "s1_surname", "label": "Soyad (Nazwisko)", "placeholder": "YILMAZ", "max": 50 }
+          ]
+        },
+        {
+          "title": "Yazışma Adresi",
+          "subtitle": "Adres do korespondencji",
+          "fields": [
+            { "id": "s1_street", "label": "Sokak (Ulica)", "placeholder": "MARSZAŁKOWSKA", "max": 50 },
+            { "id": "s1_house_no", "label": "Bina No (Numer domu)", "placeholder": "10", "max": 10 },
+            { "id": "s1_flat_no", "label": "Daire No (Numer lokalu)", "placeholder": "5", "max": 10 },
+            { "id": "s1_postal_1", "label": "Posta Kodu (ilk 2)", "placeholder": "00", "max": 2 },
+            { "id": "s1_postal_2", "label": "Posta Kodu (son 3)", "placeholder": "001", "max": 3 },
+            { "id": "s1_city", "label": "Şehir (Miejscowość)", "placeholder": "WARSZAWA", "max": 50 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personal",
+      "label": "Kişisel Bilgiler",
+      "pages": "S.1-2",
+      "groups": [
+        {
+          "title": "2. Kişisel Bilgiler",
+          "subtitle": "Dane osoby — Sayfa 1",
+          "fields": [
+            { "id": "s2_first_name", "label": "1. Ad (Imię pierwsze)", "placeholder": "MEHMET", "max": 50 },
+            { "id": "s2_second_name", "label": "2. İkinci Ad (Imię drugie)", "placeholder": "", "max": 50 },
+            { "id": "s2_other_names", "label": "3. Diğer Adlar (Imiona kolejne)", "placeholder": "", "max": 50 },
+            { "id": "s2_surname", "label": "4. Soyad (Nazwisko)", "placeholder": "YILMAZ", "max": 50 }
+          ],
+          "checkbox_group": {
+            "label": "Cinsiyet (Płeć)",
+            "type": "radio",
+            "options": [
+              { "id": "s2_sex_female", "label": "Kadın (kobieta)" },
+              { "id": "s2_sex_male", "label": "Erkek (mężczyzna)" }
+            ]
+          },
+          "date_fields": {
+            "label": "Doğum Tarihi (Data urodzenia)",
+            "fields": [
+              { "id": "s2_dob_day", "label": "Gün (DD)", "placeholder": "15", "max": 2, "group": "dob" },
+              { "id": "s2_dob_month", "label": "Ay (MM)", "placeholder": "05", "max": 2, "group": "dob" },
+              { "id": "s2_dob_year", "label": "Yıl (YYYY)", "placeholder": "1990", "max": 4, "group": "dob" }
+            ]
+          }
+        },
+        {
+          "title": "Ülke & Vatandaşlık",
+          "subtitle": "Sayfa 1",
+          "fields": [
+            { "id": "s2_birth_country", "label": "Doğum Ülkesi (Kraj urodzenia)", "placeholder": "TURCJA", "max": 50 },
+            { "id": "s2_residence_country", "label": "İkamet Ülkesi (Kraj zamieszkania)", "placeholder": "POLSKA", "max": 50 }
+          ],
+          "checkbox_group": {
+            "label": "Vatandaşlık (Obywatelstwo)",
+            "type": "radio",
+            "options": [
+              { "id": "s2_citizenship_polish", "label": "Polonyalı (polskie)" },
+              { "id": "s2_citizenship_stateless", "label": "Vatansız (bezpaństwowiec)" },
+              { "id": "s2_citizenship_other", "label": "Diğer (inne)" }
+            ],
+            "conditional_field": {
+              "show_when": "s2_citizenship_other",
+              "field": { "id": "s2_citizenship_other_text", "label": "Vatandaşlık Adı", "placeholder": "TURECKIE", "max": 50 }
+            }
+          }
+        },
+        {
+          "title": "Pasaport Bilgileri",
+          "subtitle": "Ostatnio wydany paszport — Sayfa 2",
+          "fields": [
+            { "id": "s2_passport_series", "label": "Pasaport Seri ve No", "placeholder": "U12345678", "max": 20 }
+          ],
+          "date_fields": {
+            "label": "Son Kullanma Tarihi",
+            "fields": [
+              { "id": "s2_passport_exp_day", "label": "Son Kullanma — Gün", "placeholder": "01", "max": 2, "group": "pass_exp" },
+              { "id": "s2_passport_exp_month", "label": "Son Kullanma — Ay", "placeholder": "06", "max": 2, "group": "pass_exp" },
+              { "id": "s2_passport_exp_year", "label": "Son Kullanma — Yıl", "placeholder": "2030", "max": 4, "group": "pass_exp" }
+            ]
+          }
+        },
+        {
+          "title": "Seyahat Belgesi",
+          "subtitle": "Dokument podróży — Sayfa 2",
+          "fields": [
+            { "id": "s2_travel_doc_series", "label": "Seyahat Belgesi Seri ve No", "placeholder": "", "max": 20 }
+          ],
+          "date_fields": {
+            "label": "Son Kullanma Tarihi",
+            "fields": [
+              { "id": "s2_travel_doc_exp_day", "label": "Son Kullanma — Gün", "placeholder": "", "max": 2, "group": "tdoc_exp" },
+              { "id": "s2_travel_doc_exp_month", "label": "Son Kullanma — Ay", "placeholder": "", "max": 2, "group": "tdoc_exp" },
+              { "id": "s2_travel_doc_exp_year", "label": "Son Kullanma — Yıl", "placeholder": "", "max": 4, "group": "tdoc_exp" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "parents",
+      "label": "Ebeveynler & Belge",
+      "pages": "S.2",
+      "groups": [
+        {
+          "title": "3. Ek Kişisel Bilgiler",
+          "subtitle": "Dodatkowe dane — Sayfa 2",
+          "fields": [
+            { "id": "s3_maiden_name", "label": "Kızlık Soyadı (Nazwisko rodowe)", "placeholder": "", "max": 50 },
+            { "id": "s3_birthplace", "label": "Doğum Yeri (Miejsce urodzenia)", "placeholder": "STAMBUŁ", "max": 50 },
+            { "id": "s3_birth_cert_ref", "label": "Doğum Belgesi Referansı", "placeholder": "", "max": 80 },
+            { "id": "s3_birth_registry", "label": "Nüfus Müdürlüğü", "placeholder": "", "max": 80 }
+          ]
+        },
+        {
+          "title": "Baba Bilgileri",
+          "subtitle": "Dane ojca",
+          "fields": [
+            { "id": "s3_father_name", "label": "Baba Adı (Imię ojca)", "placeholder": "AHMET", "max": 50 },
+            { "id": "s3_father_maiden_name", "label": "Baba Kızlık Soyadı (Nazwisko rodowe ojca)", "placeholder": "", "max": 50 }
+          ]
+        },
+        {
+          "title": "Anne Bilgileri",
+          "subtitle": "Dane matki",
+          "fields": [
+            { "id": "s3_mother_name", "label": "Anne Adı (Imię matki)", "placeholder": "FATMA", "max": 50 },
+            { "id": "s3_mother_maiden_name", "label": "Anne Kızlık Soyadı (Nazwisko rodowe matki)", "placeholder": "KAYA", "max": 50 }
+          ]
+        },
+        {
+          "title": "Kimlik Kartı Bilgileri",
+          "subtitle": "Dowód osobisty — Sayfa 2",
+          "fields": [
+            { "id": "s3_id_series", "label": "Kimlik Kartı Seri ve No", "placeholder": "", "max": 20 },
+            { "id": "s3_id_issuer", "label": "Kimlik Kartını Veren Makam", "placeholder": "", "max": 80 }
+          ],
+          "date_fields": {
+            "label": "Son Kullanma Tarihi",
+            "fields": [
+              { "id": "s3_id_exp_day", "label": "Son Kullanma — Gün", "placeholder": "", "max": 2, "group": "id_exp" },
+              { "id": "s3_id_exp_month", "label": "Son Kullanma — Ay", "placeholder": "", "max": 2, "group": "id_exp" },
+              { "id": "s3_id_exp_year", "label": "Son Kullanma — Yıl", "placeholder": "", "max": 4, "group": "id_exp" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "marital",
+      "label": "Medeni Durum",
+      "pages": "S.3",
+      "groups": [
+        {
+          "title": "4. Medeni Durum",
+          "subtitle": "Stan cywilny — Sayfa 3",
+          "checkbox_group": {
+            "label": "Medeni Durum",
+            "type": "radio",
+            "options": [
+              { "id": "s4_status_single", "label": "Bekar (kawaler / panna)" },
+              { "id": "s4_status_married", "label": "Evli (żonaty / zamężna)" },
+              { "id": "s4_status_divorced", "label": "Boşanmış (rozwiedziony / rozwiedziona)" },
+              { "id": "s4_status_widowed", "label": "Dul (wdowiec / wdowa)" }
+            ]
+          }
+        },
+        {
+          "title": "Eş Bilgileri",
+          "subtitle": "Dane małżonka",
+          "show_when": "s4_status_married",
+          "fields": [
+            { "id": "s4_spouse_name", "label": "Eş Adı (Imię małżonka)", "placeholder": "", "max": 50 },
+            { "id": "s4_spouse_maiden_name", "label": "Eş Kızlık Soyadı (Nazwisko rodowe)", "placeholder": "", "max": 50 },
+            { "id": "s4_spouse_pesel", "label": "Eş PESEL Numarası", "placeholder": "", "max": 11 }
+          ]
+        },
+        {
+          "title": "5. Son Evlilik Olayı",
+          "subtitle": "Ostatnie zdarzenie — Sayfa 3",
+          "checkbox_group": {
+            "label": "Son Evlilik Olayı",
+            "type": "radio",
+            "options": [
+              { "id": "s5_event_marriage", "label": "Evlilik (zawarcie związku małżeńskiego)" },
+              { "id": "s5_event_divorce", "label": "Boşanma (rozwiązanie związku)" },
+              { "id": "s5_event_annulment", "label": "İptal (unieważnienie związku)" },
+              { "id": "s5_event_spouse_death", "label": "Eşin Vefatı (zgon małżonka)" },
+              { "id": "s5_event_spouse_death_found", "label": "Eşin Vefatı — ceset bulunması" }
+            ]
+          },
+          "date_fields": {
+            "label": "Olay Tarihi",
+            "fields": [
+              { "id": "s5_event_date_day", "label": "Gün", "placeholder": "", "max": 2, "group": "evt_date" },
+              { "id": "s5_event_date_month", "label": "Ay", "placeholder": "", "max": 2, "group": "evt_date" },
+              { "id": "s5_event_date_year", "label": "Yıl", "placeholder": "", "max": 4, "group": "evt_date" }
+            ]
+          },
+          "fields": [
+            { "id": "s5_marriage_cert_ref", "label": "Evlilik/Vefat Belge Referansı", "placeholder": "", "max": 80 },
+            { "id": "s5_marriage_registry", "label": "Nüfus Müdürlüğü / Mahkeme", "placeholder": "", "max": 80 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "address",
+      "label": "Adres & Bildirim",
+      "pages": "S.3",
+      "groups": [
+        {
+          "title": "6. Bildirim Şekli",
+          "subtitle": "Forma powiadomienia — Sayfa 3",
+          "checkbox_group": {
+            "label": "Bildirim Şekli",
+            "type": "radio",
+            "options": [
+              { "id": "s6_notify_paper", "label": "Kağıt (papierowa)" },
+              { "id": "s6_notify_electronic", "label": "Elektronik (elektroniczna)" }
+            ],
+            "conditional_field": {
+              "show_when": "s6_notify_electronic",
+              "field": { "id": "s6_epuap_address", "label": "ePUAP Adresi", "placeholder": "/isim/skrytka", "max": 80 }
+            }
+          }
+        },
+        {
+          "title": "7. Yasal Dayanak",
+          "subtitle": "Podstawa prawna — Sayfa 4",
+          "fields": [
+            { "id": "s7_legal_basis", "label": "Yasal Dayanak (Podstawa prawna)", "placeholder": "Art. 7 ust. 2 ustawy o ewidencji ludności", "max": 200 }
+          ]
+        },
+        {
+          "title": "8. İmza",
+          "subtitle": "Podpisy — Sayfa 4",
+          "fields": [
+            { "id": "s8_city", "label": "İmza Yeri (Miejscowość)", "placeholder": "WARSZAWA", "max": 50 }
+          ],
+          "date_fields": {
+            "label": "İmza Tarihi",
+            "fields": [
+              { "id": "s8_date_day", "label": "Gün", "placeholder": "02", "max": 2, "group": "sig_date" },
+              { "id": "s8_date_month", "label": "Ay", "placeholder": "03", "max": 2, "group": "sig_date" },
+              { "id": "s8_date_year", "label": "Yıl", "placeholder": "2026", "max": 4, "group": "sig_date" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "docimport",
+      "label": "Belge Aktar",
+      "pages": "",
+      "groups": []
+    },
+    {
+      "id": "export",
+      "label": "Dışa Aktar",
+      "pages": "",
+      "groups": []
+    }
+  ],
+  "checkbox_groups": [
+    {
+      "name": "sex",
+      "type": "radio",
+      "label": "Cinsiyet (Płeć)",
+      "options": ["s2_sex_female", "s2_sex_male"]
+    },
+    {
+      "name": "citizenship",
+      "type": "radio",
+      "label": "Vatandaşlık (Obywatelstwo)",
+      "options": ["s2_citizenship_polish", "s2_citizenship_stateless", "s2_citizenship_other"],
+      "conditional_text_field": "s2_citizenship_other_text"
+    },
+    {
+      "name": "marital_status",
+      "type": "radio",
+      "label": "Medeni Durum (Stan cywilny)",
+      "options": ["s4_status_single", "s4_status_married", "s4_status_divorced", "s4_status_widowed"]
+    },
+    {
+      "name": "marriage_event",
+      "type": "radio",
+      "label": "Son Evlilik Olayı (Ostatnie zdarzenie)",
+      "options": ["s5_event_marriage", "s5_event_divorce", "s5_event_annulment", "s5_event_spouse_death", "s5_event_spouse_death_found"]
+    },
+    {
+      "name": "notification",
+      "type": "radio",
+      "label": "Bildirim Şekli (Forma powiadomienia)",
+      "options": ["s6_notify_paper", "s6_notify_electronic"],
+      "conditional_text_field": "s6_epuap_address"
+    }
+  ],
+  "checkbox_fields": [
+    "s2_sex_female", "s2_sex_male",
+    "s2_citizenship_polish", "s2_citizenship_stateless", "s2_citizenship_other",
+    "s4_status_single", "s4_status_married", "s4_status_divorced", "s4_status_widowed",
+    "s5_event_marriage", "s5_event_divorce", "s5_event_annulment",
+    "s5_event_spouse_death", "s5_event_spouse_death_found",
+    "s6_notify_paper", "s6_notify_electronic"
+  ],
+  "translations": {
+    "TR_PL_COUNTRIES": {
+      "TURKIYE": "TURCJA",
+      "TÜRKİYE": "TURCJA",
+      "TURCJA": "TURCJA",
+      "ALMANYA": "NIEMCY",
+      "FRANSA": "FRANCJA",
+      "INGILTERE": "WIELKA BRYTANIA",
+      "İNGİLTERE": "WIELKA BRYTANIA",
+      "ITALYA": "WŁOCHY",
+      "İTALYA": "WŁOCHY",
+      "ISPANYA": "HISZPANIA",
+      "İSPANYA": "HISZPANIA",
+      "HOLLANDA": "HOLANDIA",
+      "BELCIKA": "BELGIA",
+      "BELÇİKA": "BELGIA",
+      "AVUSTURYA": "AUSTRIA",
+      "ISVICRE": "SZWAJCARIA",
+      "İSVİÇRE": "SZWAJCARIA",
+      "YUNANISTAN": "GRECJA",
+      "BULGARISTAN": "BUŁGARIA",
+      "ROMANYA": "RUMUNIA",
+      "UKRAYNA": "UKRAINA",
+      "RUSYA": "ROSJA",
+      "IRAN": "IRAN",
+      "İRAN": "IRAN",
+      "IRAK": "IRAK",
+      "SURIYE": "SYRIA",
+      "SURİYE": "SYRIA",
+      "MISIR": "EGIPT",
+      "ABD": "USA",
+      "AMERIKA": "USA",
+      "KANADA": "KANADA",
+      "CIN": "CHINY",
+      "ÇİN": "CHINY",
+      "JAPONYA": "JAPONIA",
+      "PAKISTAN": "PAKISTAN",
+      "PAKİSTAN": "PAKISTAN",
+      "HINDISTAN": "INDIE",
+      "HİNDİSTAN": "INDIE",
+      "GURCISTAN": "GRUZJA",
+      "GÜRCÜSTAN": "GRUZJA",
+      "AZERBAYCAN": "AZERBEJDŻAN",
+      "POLONYA": "POLSKA",
+      "POLSKA": "POLSKA"
+    }
+  },
+  "defaults": {
+    "s7_legal_basis": "KARTA POBYTU - ZEZWOLENIE NA POBYT",
+    "s6_notify_paper": true
+  },
+  "auto_copy_rules": [
+    { "from": "s1_name", "to": "s2_first_name", "when_empty": true },
+    { "from": "s1_surname", "to": "s2_surname", "when_empty": true },
+    { "from": "s1_city", "to": "s8_city", "when_empty": true }
+  ],
+  "auto_infer_rules": [
+    { "when_any": ["s4_spouse_name", "s4_spouse_maiden_name", "s4_spouse_pesel"], "set": "s4_status_married", "value": true },
+    { "when": "s4_status_married", "set": "s5_event_marriage", "value": true },
+    { "when": "s6_epuap_address", "set": "s6_notify_electronic", "value": true, "clear": "s6_notify_paper" },
+    { "when": "s2_citizenship_other_text", "set": "s2_citizenship_other", "value": true }
+  ],
+  "total_fields": 70,
+  "download_name": "PESEL_{surname}_{name}_{date}.pdf",
+  "name_fields": {
+    "surname": "s2_surname",
+    "name": "s2_first_name"
+  }
+}
